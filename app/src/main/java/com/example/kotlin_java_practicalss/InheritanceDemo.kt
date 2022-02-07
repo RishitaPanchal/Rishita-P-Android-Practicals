@@ -1,7 +1,7 @@
 package com.example.kotlin_java_practicalss
 
 //by default class is final & public so, we have to make class open
-open class Car {
+open class CarExample {
     var color: String = ""
     fun type() {
         println("Color of car is: $color")
@@ -9,13 +9,13 @@ open class Car {
     }
 }
 
-class Jeguar: Car() {
+class Jeguar: CarExample() {
    fun speed() {
        println("Jeguar speed: 200kmhr")
    }
 }
 
-class Bmw: Car() {
+class Bmw: CarExample() {
     fun engine() {
         println("ENgine type: Petrol car")
     }

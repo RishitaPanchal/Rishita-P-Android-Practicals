@@ -10,16 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
         <activity
-            android:name=".Calc_javaOperators"
+            android:name="com.example.uiwidgets.ConstraintLayout_form"
+            android:exported="false" />
+        <activity
+            android:name=".ConstraintLayout_form"
+            android:exported="false"
+            android:label="@string/title_activity_constraint_layout_form"
+            android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar" />
+        <activity
+            android:name="com.example.uiwidgets.LayoutsDemo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.Ripple_Effect"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.IMEOption"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.uiwidgets.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.uiwidgets.UIWidgetsA"
+            android:exported="false" />
     </application>
 
 </manifest>
