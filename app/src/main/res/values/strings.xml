@@ -1,3 +1,50 @@
 <resources>
-    <string name="app_name">Kotlin_java_practicalss</string>
+
+    <!--    UIWidgetsA-->
+    <string name="app_name">UIWidgets(A)</string>
+    <string name="custom_toast_demo">Custom toast demo</string>
+    <string name="buy_now">buy now</string>
+    <string name="thanks_for_purchasing">Thanks for purchasing!!</string>
+    <string name="registration">SIGN UP!</string>
+    <string name="user_name">Full Name</string>
+    <string name="email_id">Email-ID</string>
+    <string name="user_name1">User name</string>
+    <string name="gender">Gender</string>
+    <string name="famale">Famale</string>
+    <string name="male">Male</string>
+    <string name="cources">Cources</string>
+    <string name="c">C++</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in">sign in</string>
+    <string name="password">Password</string>
+    <string name="already_user">Already user?</string>
+
+    <!--Custom Toast-->
+    <string name="custom_toast">Ripple Effect in Button and Custom toast!</string>
+
+    <!-- MainActivity -->
+    <string name="exercise">Exercise</string>
+    <string name="ui_widgets_a">UI widgets A</string>
+    <string name="ui_widgets_b">Ui widgets b</string>
+    <string name="theme">Theme</string>
+    <string name="ripple_with_border">Ripple with border</string>
+    <string name="ripple_effetct">Ripple effetct</string>
+    <string name="ripple_effect_demo">Ripple effect demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_constraint_layout_form">ConstraintLayout_form</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Content descriptions-->
+
+
 </resources>

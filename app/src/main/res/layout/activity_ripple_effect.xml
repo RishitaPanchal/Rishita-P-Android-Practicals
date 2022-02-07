@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uiwidgets.Ripple_Effect">
+
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ripple_effect_demo"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_20sdp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_50sdp"
+        />
+
+
+    <Button
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="@string/ripple_with_border"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt11"
+        android:textColor="@color/black"
+        android:background="@drawable/ripple2"
+        android:textSize="@dimen/_10sdp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/ripple_with_border"
+        android:textAllCaps="true"
+        android:layout_below="@+id/txt1"
+        android:background="@drawable/ripple"
+        android:textSize="@dimen/_10sdp" />
+</RelativeLayout>
