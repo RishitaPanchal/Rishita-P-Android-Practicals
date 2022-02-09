@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.uiwidgets.FragmentUiA">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="@string/exercise"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/ui_widgets_a"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="IME option"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="Ripple effect"
+        android:textSize="@dimen/_13sdp" />
+
+</LinearLayout>

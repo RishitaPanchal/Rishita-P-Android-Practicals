@@ -5,7 +5,6 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
-import android.widget.CheckBox
 import android.widget.RadioButton
 import android.widget.Toast
 import com.example.kotlin_java_practicalss.R
@@ -26,7 +25,7 @@ class UIWidgetsA : AppCompatActivity() {
         val layouut = layoutInflater.inflate(R.layout.custom_toast, findViewById(R.id.custom_wrap))
 
         binding.back.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, TabbedApp::class.java)
             startActivity(intent)
         }
         binding.signup.setOnClickListener {
