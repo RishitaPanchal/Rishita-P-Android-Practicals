@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative layout demo -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootDemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/_56sdp"
+    tools:context="com.example.uiwidgets.direct_message_relativelayout">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_19sdp"
+        android:hint="search"
+        android:textColorHint="@color/gray"
+        app:boxStrokeColor="@color/gray"
+        app:hintTextColor="@color/gray"
+        app:startIconDrawable="@drawable/search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/outlinedTextField"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="Its_me1234"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user1_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user1"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Active Yesterday"
+                            android:textSize="@dimen/_10ssp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="rp_2771"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user2_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user2"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Reacted 😂 on your message"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card2"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="/~/ely"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user3_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user3"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Mentioned you in a story."
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="Discovery"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user4_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user4"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Sent you a post"
+                            android:textSize="@dimen/_10ssp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card4"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="Aparna Tati"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user5_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user5"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Seen saturday"
+                            android:textSize="@dimen/_10ssp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card5"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="Puju"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user6_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user6"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Liked a message"
+                            android:textSize="@dimen/_10ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card6"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="Ruh✨"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user7_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user7"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="Active now"
+                            android:textSize="@dimen/_10ssp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card7"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/_8sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/msg_container8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageButton
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:background="@drawable/ripple"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/story1" />
+
+                        <TextView
+                            android:id="@+id/user8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:text="we.love.hotels"
+                            android:textAppearance="?attr/textAppearanceHeadline6"
+                            android:textSize="@dimen/_12ssp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/user8_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/user8"
+                            android:layout_marginLeft="@dimen/_42sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:text="seen 2 hours ago"
+                            android:textSize="@dimen/_10ssp"
+                            android:typeface="sans" />
+
+                        <ImageButton
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_marginStart="@dimen/_260sdp"
+                            android:layout_marginLeft="@dimen/_120sdp"
+                            android:background="@null"
+                            android:src="@drawable/camera_dm" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

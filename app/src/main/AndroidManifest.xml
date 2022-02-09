@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.uiwidgets.mergetag_implementation"
+            android:name="com.example.uiwidgets.MergetagImplementation"
             android:exported="false" />
         <activity
             android:name="com.example.uiwidgets.ConstraintLayoutForm"
@@ -36,7 +36,7 @@
             android:name="com.example.uiwidgets.LayoutsDemo"
             android:exported="false" />
         <activity
-            android:name="com.example.uiwidgets.Ripple_Effect"
+            android:name="com.example.uiwidgets.RippleEffect"
             android:exported="false" />
         <activity
             android:name="com.example.uiwidgets.IMEOption"

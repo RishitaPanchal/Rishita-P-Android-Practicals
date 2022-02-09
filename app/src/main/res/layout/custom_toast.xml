@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
     android:id="@+id/custom_wrap"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/registration_design"
     android:padding="@dimen/_10ssp">
@@ -9,12 +9,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/custom_toast"/>
+        android:text="@string/custom_toast" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
-        android:src="@drawable/ic_baseline_custom_toast_24"/>
+        android:src="@drawable/ic_baseline_custom_toast_24" />
 
 </LinearLayout>

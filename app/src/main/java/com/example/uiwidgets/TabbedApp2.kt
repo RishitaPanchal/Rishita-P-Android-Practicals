@@ -11,7 +11,7 @@ import android.view.MenuItem
 import com.example.kotlin_java_practicalss.databinding.ActivityTabbedAppBinding
 import com.example.uiwidgets.ui.main.SectionsPagerAdapter
 
-class TabbedApp : AppCompatActivity() {
+class TabbedApp2 : AppCompatActivity() {
 
     private lateinit var binding: ActivityTabbedAppBinding
 
@@ -27,6 +27,8 @@ class TabbedApp : AppCompatActivity() {
 
         val tabs: TabLayout = binding.tabs
         tabs.setupWithViewPager(viewPager)
+
+        val fab: FloatingActionButton = binding.fab
     }
 
 }
