@@ -46,5 +46,44 @@
 
     <!-- Content descriptions-->
 
+    <!-- String array for drop down-->
+    <string-array name="intrested_in">
+        <item>Java</item>
+        <item>Mobile Development</item>
+        <item>RoR</item>
+        <item>Java script</item>
+    </string-array>
 
+    <!-- Dialogue box strings-->
+    <string name="title">Thank you!</string>
+    <string name="message">We will be in touch soon</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_tab_layout_demo">Tab_layout_demo</string>
+    <string name="tab_text_1">UI A</string>
+    <string name="tab_text_2">UI B</string>
+    <string name="title_activity_tabbed_app">Tabbed_app</string>
+
+    <!-- Table layout strings-->
+    <string name="_1">1</string>
+    <string name="rishita_panchal">Rishita Panchal</string>
+    <string name="_2">2</string>
+    <string name="hiral_panchal">Hiral Panchal</string>
+    <string name="_3">3</string>
+    <string name="hely_pandya">Hely Pandya</string>
+    <string name="_2_00_to_3_00">2:00 to 3:00</string>
+    <string name="poojan_panchal">Poojan Panchal</string>
+    <string name="_4_00_to_6_00">4:00 to 6:00</string>
+    <string name="time_slot">Time slot</string>
+    <string name="no">No</string>
+    <string name="name">Name</string>
+    <string name="instagram">Instagram</string>
+    <string name="your_story">Your story</string>
+    <string name="its_me1234">its_me1234</string>
+    <string name="rp_2771">rp_2771</string>
+    <string name="get_in_touch">Get In Touch!!</string>
+    <string name="email">Email</string>
+    <string name="company">Company</string>
+    <string name="intrested_in">Intrested in</string>
+    <string name="msg1">Message</string>
+    <string name="send">SEND</string>
 </resources>
