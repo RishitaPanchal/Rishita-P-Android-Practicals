@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_linearlayout_home"
+        android:icon="@drawable/insta_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/explore_gridlayout"
+        android:icon="@drawable/explore"
+        android:title="Explore"/>
+    <item
+        android:id="@+id/post_gridLayout"
+        android:icon="@drawable/insta_reel"
+        android:title="posts"/>
+    <item
+        android:id="@+id/direct_message_relativelayout"
+        android:icon="@drawable/share"
+        android:title="Direct message"/>
+    <item
+        android:id="@+id/profile_tablelayout"
+        android:icon="@drawable/insta_profilee"
+        android:title="posts"/>
+</menu>

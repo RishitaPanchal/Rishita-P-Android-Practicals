@@ -86,4 +86,5 @@
     <string name="intrested_in">Intrested in</string>
     <string name="msg1">Message</string>
     <string name="send">SEND</string>
+    <string name="toast_msg">This screen is a tab layout demo</string>
 </resources>

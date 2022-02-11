@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="Button1"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn12"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="Button2"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="Button3"
+        android:textSize="@dimen/_13sdp" />
+</merge>

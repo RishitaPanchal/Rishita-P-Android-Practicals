@@ -18,6 +18,7 @@
         <entry key="app/src/main/res/drawable/underline_edittext.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/drawable/your_story.xml" value="0.178125" />
         <entry key="app/src/main/res/layout-v23/activity_main.xml" value="0.1640625" />
+        <entry key="app/src/main/res/layout-v26/expandable_listview_movies.xml" value="0.15625" />
         <entry key="app/src/main/res/layout/activity_calc_java_operators.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_constraint_layout_form2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets.xml" value="0.1" />

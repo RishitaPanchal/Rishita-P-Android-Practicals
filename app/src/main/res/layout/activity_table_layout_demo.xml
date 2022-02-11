@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Table layout demo -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uiwidgets.TableLayoutDemo">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navyblue"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/no"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/name"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/time_slot"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/rishita_panchal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_2_00_to_3_00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/hiral_panchal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_4_00_to_6_00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/hely_pandya"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_2_00_to_3_00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/poojan_panchal"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <TextView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/_4_00_to_6_00"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+    </TableRow>
+</TableLayout>
