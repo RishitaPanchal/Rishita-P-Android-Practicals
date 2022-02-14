@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_5sdp"
-        android:hint="search"
+        android:hint="@string/search"
         android:textColorHint="@color/gray"
         app:boxStrokeColor="@color/gray"
         app:hintTextColor="@color/gray"
@@ -41,8 +41,8 @@
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginRight="-23dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="-23dp"
             android:columnCount="3"
             android:rowCount="4">
 
@@ -52,14 +52,16 @@
                 android:layout_margin="@dimen/_2sdp"
                 android:background="@drawable/registration_design"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_1" />
+                android:src="@drawable/explore_1"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_2" />
+                android:src="@drawable/explore_2"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
@@ -67,105 +69,120 @@
                 android:layout_rowSpan="2"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_3" />
+                android:src="@drawable/explore_3"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_4" />
+                android:src="@drawable/explore_4"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_5" />
+                android:src="@drawable/explore_5"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_6" />
+                android:src="@drawable/explore_6"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_7" />
+                android:src="@drawable/explore_7"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_8" />
+                android:src="@drawable/explore_8"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_9" />
+                android:src="@drawable/explore_9"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_10" />
+                android:src="@drawable/explore_10"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_1" />
+                android:src="@drawable/explore_1"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_8" />
+                android:src="@drawable/explore_8"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_9" />
+                android:src="@drawable/explore_9"
+                android:contentDescription="@string/email"/>
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_10" />
+                android:src="@drawable/explore_10"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_1" />
+                android:src="@drawable/explore_1"
+                android:contentDescription="@string/email"/>
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_1" />
+                android:src="@drawable/explore_1"
+                android:contentDescription="@string/email" />
 
             <ImageView
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_90sdp"
                 android:layout_margin="@dimen/_2sdp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/explore_1" />
+                android:src="@drawable/explore_1"
+                android:contentDescription="@string/email" />
         </GridLayout>
     </ScrollView>
 </GridLayout>

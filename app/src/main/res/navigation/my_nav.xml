@@ -21,7 +21,7 @@
         tools:layout="@layout/fragment_direct_message_relativelayout" />
     <fragment
         android:id="@+id/profile_tablelayout"
-        android:name="com.example.uiwidgets.profile_tablelayout"
+        android:name="com.example.uiwidgets.ProfileTablelayout"
         android:label="fragment_profile_tablelayout"
         tools:layout="@layout/fragment_profile_tablelayout" />
 </navigation>
