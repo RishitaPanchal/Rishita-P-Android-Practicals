@@ -14,4 +14,5 @@
     <color name="white_gray">#b6b7b5</color>
     <color name="parrot">#22a540</color>
     <color name="lovender">#fabcff</color>
+    <color name="transperant">#00000000</color>
 </resources>

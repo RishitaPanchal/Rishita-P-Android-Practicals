@@ -19,6 +19,7 @@
         <entry key="app/src/main/res/drawable/tab_indicator_default.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/underline_edittext.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/drawable/your_story.xml" value="0.178125" />
+        <entry key="app/src/main/res/layout-v23/activity_constraint_layout_form2.xml" value="0.15625" />
         <entry key="app/src/main/res/layout-v23/activity_main.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout-v26/expandable_listview_movies.xml" value="0.15625" />
         <entry key="app/src/main/res/layout/activity_bottom_navigation_with_viewpager.xml" value="0.1" />
@@ -31,7 +32,9 @@
         <entry key="app/src/main/res/layout/activity_imeoption.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_layout_demo_insta.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/activity_layouts.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_list_components.xml" value="0.16847826086956522" />
         <entry key="app/src/main/res/layout/activity_list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_listview_with_image.xml" value="0.15625" />
         <entry key="app/src/main/res/layout/activity_login_form_table_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_page_table_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
@@ -40,7 +43,11 @@
         <entry key="app/src/main/res/layout/activity_mergetag_implementation.xml" value="0.13854166666666667" />
         <entry key="app/src/main/res/layout/activity_relative_layout_demo.xml" value="0.1189710610932476" />
         <entry key="app/src/main/res/layout/activity_ripple_effect.xml" value="0.14322916666666666" />
+        <entry key="app/src/main/res/layout/activity_simple_list_view.xml" value="0.16847826086956522" />
+        <entry key="app/src/main/res/layout/activity_simple_listview.xml" value="0.153125" />
+        <entry key="app/src/main/res/layout/activity_simple_recyclerview.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_splash_screen_using_frame_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_stragered_gridview_recyclerview.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/layout/activity_tabbed_app.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_table_layout_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_uiwidgets.xml" value="0.18" />
@@ -52,6 +59,9 @@
         <entry key="app/src/main/res/layout/fragment_add_message.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/fragment_add_message2.xml" value="0.165625" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_bottom_navigation_myprofile.xml" value="0.12760416666666666" />
+        <entry key="app/src/main/res/layout/fragment_bottom_navigation_search.xml" value="0.12760416666666666" />
+        <entry key="app/src/main/res/layout/fragment_bottomnavigation_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_constraint_layout_demoo.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/fragment_demo.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/layout/fragment_demoo.xml" value="0.11684782608695653" />
@@ -67,12 +77,16 @@
         <entry key="app/src/main/res/layout/fragment_home_linearlayout_home.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_home_linearlayoutdemo.xml" value="0.14166666666666666" />
         <entry key="app/src/main/res/layout/fragment_linear_layout.xml" value="0.14166666666666666" />
+        <entry key="app/src/main/res/layout/fragment_my_favorites.xml" value="0.13958333333333334" />
+        <entry key="app/src/main/res/layout/fragment_one_viewpager2.xml" value="0.171875" />
         <entry key="app/src/main/res/layout/fragment_post_grid_layout.xml" value="0.21" />
         <entry key="app/src/main/res/layout/fragment_profile_tablelayout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_recent.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/layout/fragment_tab_layout.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/fragment_tab_layout_demo.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/fragment_tabbed_app.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_tagged_posts.xml" value="0.11684782608695653" />
+        <entry key="app/src/main/res/layout/fragment_two_viewpager2.xml" value="0.1578125" />
         <entry key="app/src/main/res/layout/fragment_u_i__a.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/fragment_ui_a.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/layout/fragment_ui_b.xml" value="0.1" />
@@ -82,8 +96,14 @@
         <entry key="app/src/main/res/layout/include_tag_insta_posts.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/include_tag_insta_stories.xml" value="0.11911231884057971" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/listview_components.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/menu_bottomnavigation.xml" value="0.15625" />
         <entry key="app/src/main/res/layout/merge_tag_demo.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/registration_design.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/simple_list_component.xml" value="0.16847826086956522" />
+        <entry key="app/src/main/res/layout/simple_recyclerview_row.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/stragered_grid_recycler_layout.xml" value="0.11302083333333333" />
+        <entry key="app/src/main/res/layout/tab_selector.xml" value="0.171875" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.14635416666666667" />
         <entry key="app/src/main/res/menu/exercise_practical1_bottomnavigation.xml" value="1.1642857142857144" />
         <entry key="app/src/main/res/menu/menu_bottomnavigation.xml" value="0.10729166666666666" />
@@ -96,5 +116,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.15625" />
+      </ProjectState>
+    </option>
   </component>
 </project>

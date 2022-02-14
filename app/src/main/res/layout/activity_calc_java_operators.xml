@@ -13,7 +13,6 @@
         android:text="@string/calculator"
         android:textSize="@dimen/_40sdp"
         android:textStyle="bold" />
-
     <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
