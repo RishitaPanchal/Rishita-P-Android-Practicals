@@ -1,4 +1,4 @@
-package com.example.uiwidgets
+package uiwidgetsc.listview.recyclerview.adapters
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,16 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.kotlin_java_practicalss.R
 
-class profile_tablelayout : Fragment() {
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
+class FragmentOneViewpager2 : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_profile_tablelayout, container, false)
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_one_viewpager2, container, false)
     }
+
 }
