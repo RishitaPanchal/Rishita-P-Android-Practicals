@@ -8,7 +8,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_20sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="Button1"
+        android:text="@string/button1"
         android:textSize="@dimen/_13sdp" />
 
     <Button
@@ -18,7 +18,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_20sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="Button2"
+        android:text="@string/button2"
         android:textSize="@dimen/_13sdp" />
 
     <Button
@@ -28,6 +28,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/_20sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="Button3"
+        android:text="@string/button3"
         android:textSize="@dimen/_13sdp" />
 </merge>

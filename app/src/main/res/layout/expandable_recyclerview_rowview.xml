@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_15sdp">
+
+    <RelativeLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/grouptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_name"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/icondown"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/down" />
+
+        <RelativeLayout
+            android:id="@+id/expandable_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grouptext"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/realname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/real_name"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/realname"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/team"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/Appearance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/team"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/appearance"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/imgurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Appearance"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:justificationMode="inter_word"
+                android:paddingEnd="@dimen/_10sdp"
+                android:text="@string/img_url"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/createby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgurl"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/created_by"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/publisher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/createby"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/publisher"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/publisher"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:justificationMode="inter_word"
+                android:paddingEnd="@dimen/_10sdp"
+                android:text="@string/bio"
+                android:textSize="@dimen/_12sdp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView><!-- row-->

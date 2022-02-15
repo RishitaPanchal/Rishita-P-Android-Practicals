@@ -1,104 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Calc_javaOperators">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CALCULATOR"
         android:layout_centerHorizontal="true"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_marginTop="50dp"
-        />
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/calculator"
+        android:textSize="@dimen/_40sdp"
+        android:textStyle="bold" />
+
     <EditText
         android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
         android:layout_marginTop="150dp"
+        android:layout_marginRight="@dimen/_30sdp"
         android:hint="Number1"
-        android:padding="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        />
+        android:padding="30dp" />
+
     <EditText
         android:id="@+id/et2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_marginRight="@dimen/_30sdp"
         android:hint="Number2"
-        android:padding="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        />
+        android:padding="@dimen/_30sdp" />
+
     <Button
         android:id="@+id/btnadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        />
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_marginRight="@dimen/_30sdp"
+        android:text="Add" />
+
     <Button
         android:id="@+id/btnsub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SUb"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:text="SUb" />
+
     <Button
         android:id="@+id/btnmul"
-        android:text="MUL"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="270dp"
-        />
+        android:layout_marginLeft="@dimen/_270sdp"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:text="MUL" />
+
     <Button
         android:id="@+id/btndiv"
-        android:text="DIV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
         android:layout_marginTop="350dp"
-        android:layout_marginLeft="30dp"
-        />
+        android:text="DIV" />
+
     <Button
         android:id="@+id/btnmod"
-        android:text="Mod"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="150dp"
-        />
+        android:layout_marginLeft="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_350sdp"
+        android:text="Mod" />
 
     <Button
         android:id="@+id/btnshiftl"
-        android:text="Lshift"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="270dp"
-        />
+        android:layout_marginLeft="@dimen/_270sdp"
+        android:layout_marginTop="@dimen/_350sdp"
+        android:text="Lshift" />
 
     <Button
         android:id="@+id/btnshiftr"
-        android:text="Rshift"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="150dp"
-        />
+        android:layout_marginLeft="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_400sdp"
+        android:text="Rshift" />
+
     <TextView
+        android:id="@+id/answer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_500sdp"
         android:text=" "
-        android:id="@+id/answer"
-        android:layout_marginTop="500dp"
-        android:textSize="30dp"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="@dimen/_30sdp" />
 
 </RelativeLayout>

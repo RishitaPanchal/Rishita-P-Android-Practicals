@@ -12,14 +12,15 @@
         android:layout_marginRight="@dimen/_5sdp"
         android:background="@drawable/ripple"
         android:scaleType="centerCrop"
-        android:src="@drawable/story1" />
+        android:src="@drawable/story1"
+        android:contentDescription="@string/email" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_3sdp"
         android:layout_marginRight="@dimen/_3sdp"
-        android:text="its_me1234"
+        android:text="@string/its_me1234"
         android:textSize="@dimen/_10ssp" />
 </LinearLayout>
 

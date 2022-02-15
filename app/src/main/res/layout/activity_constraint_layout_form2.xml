@@ -160,7 +160,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="@dimen/_20sdp"
         android:background="@drawable/email_send_btn"
-        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableStart="@drawable/ic_baseline_email_24"
         android:drawableTint="@color/white"
         android:text="@string/send"
         app:layout_constraintEnd_toEndOf="parent"

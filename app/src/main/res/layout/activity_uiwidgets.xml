@@ -60,7 +60,8 @@
             android:minHeight="48dp"
             android:padding="@dimen/_10sdp"
             android:textSize="@dimen/_12ssp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:autofillHints="" />
 
         <EditText
             android:id="@+id/pass"
@@ -190,7 +191,7 @@
                 android:layout_height="@dimen/_30sdp"
                 android:layout_marginStart="@dimen/_120sdp"
                 android:background="@drawable/ripple"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/email"
                 android:src="@drawable/ic_baseline_login_24"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 

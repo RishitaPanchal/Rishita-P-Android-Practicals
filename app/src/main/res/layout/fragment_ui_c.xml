@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.uiwidgets.FragmentUiB">
+    tools:context="com.example.uiwidgets.FragmentUiC">
 
     <TextView
         android:id="@+id/header"
@@ -18,12 +18,39 @@
         android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btn1"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/simple_list_view"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/list_view_with_image"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/simple_recycler_view"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
         android:id="@+id/btn4"
         android:layout_width="@dimen/_200sdp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="@string/instagram_design"
+        android:text="@string/recycler_view_with_item_decoration"
         android:textSize="@dimen/_13sdp" />
 
     <Button
@@ -32,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="@string/constraint_layout_demo"
+        android:text="@string/expandable_list_view"
         android:textSize="@dimen/_13sdp" />
 
     <Button
@@ -41,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="@string/merge_tag_demo"
+        android:text="@string/expandable_recycler"
         android:textSize="@dimen/_13sdp" />
 
     <Button
@@ -50,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="@string/tab_layout"
+        android:text="@string/view_pager_demo"
         android:textSize="@dimen/_13sdp" />
 
     <Button
@@ -59,6 +86,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
         android:backgroundTint="@color/navyblue"
-        android:text="@string/table_layout"
+        android:text="@string/bottom_navigation"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/viewpager2"
         android:textSize="@dimen/_13sdp" />
 </LinearLayout>

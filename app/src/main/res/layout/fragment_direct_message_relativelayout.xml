@@ -8,8 +8,7 @@
     android:id="@+id/rootDemo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="@dimen/_56sdp"
-    tools:context="com.example.uiwidgets.direct_message_relativelayout">
+    android:layout_marginBottom="@dimen/_56sdp">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/outlinedTextField"
