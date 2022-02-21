@@ -22,5 +22,6 @@
         android:layout_marginRight="@dimen/_3sdp"
         android:text="@string/its_me1234"
         android:textSize="@dimen/_10ssp" />
+
 </LinearLayout>
 

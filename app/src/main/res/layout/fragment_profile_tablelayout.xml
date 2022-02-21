@@ -3,7 +3,6 @@
 <!-- Table layout demo (Not implemented)-->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,11 +12,9 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <TextView
                 android:layout_width="@dimen/_220sdp"
                 android:layout_height="wrap_content"
@@ -62,11 +59,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="2"
-                android:layout_span="3">
-
-            </TableLayout>
-
-
+                android:layout_span="3"/>
         </TableRow>
     </TableLayout>
+
 </LinearLayout>
