@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
         <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.Viewpager2Demo"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.BottomNavigationWithViewpager"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.ViewpagerDemo"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.ExpandableRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.StrageredGridviewRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.ExpandableListvieww"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.SimpleRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.SimpleListView"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsc.listview.recyclerview.adapters.ListviewWithImage"
+            android:exported="false" />
+        <activity
             android:name="com.example.uiwidgets.TableLayoutDemo"
             android:exported="false" />
         <activity
@@ -22,7 +49,6 @@
             android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
