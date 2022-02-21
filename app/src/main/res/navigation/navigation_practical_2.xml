@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_practical_2"
+    app:startDestination="@id/gallaryFragment">
+
+    <fragment
+        android:id="@+id/gallaryFragment"
+        android:name="uiwidgetsd.activity.fragment.intents.GallaryFragment"
+        android:label="GallaryFragment" />
+    <fragment
+        android:id="@+id/addMessageFragment"
+        android:name="uiwidgetsd.activity.fragment.intents.AddMessageFragment"
+        android:label="AddMessageFragment" />
+    <fragment
+        android:id="@+id/viewMessageFragment"
+        android:name="uiwidgetsd.activity.fragment.intents.ViewMessageFragment"
+        android:label="ViewMessageFragment" />
+</navigation>

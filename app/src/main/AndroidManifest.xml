@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kotlin_java_practicalss">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,77 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.PendingIntent2"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.PendingIntentDemo"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.IntentFIlterToRecieveData"
+            android:exported="true">
+            <!-- ALlowing another apps to open our App -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.Practical2"
+            android:exported="true" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.FragmentContainerViewDemo"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.ExercisePractical1UsingViewmodel"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.FragmentTransactions"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.IntentRecieverActivity"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.LMSIntentDemo"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.ActivityLifecycleDemo"
+            android:exported="true" />
+        <activity
+            android:name="uiwidgetsd.activity.fragment.intents.UiwidgetsD"
+            android:exported="true">
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+            <!-- Example of Deep linking -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.google.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.google.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.Viewpager2Demo"
             android:exported="false" />
@@ -47,6 +120,7 @@
             android:exported="true"
             android:label="@string/title_activity_tabbed_app"
             android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

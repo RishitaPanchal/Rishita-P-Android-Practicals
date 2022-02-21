@@ -97,4 +97,5 @@
         android:backgroundTint="@color/navyblue"
         android:text="@string/viewpager2"
         android:textSize="@dimen/_13sdp" />
+
 </LinearLayout>

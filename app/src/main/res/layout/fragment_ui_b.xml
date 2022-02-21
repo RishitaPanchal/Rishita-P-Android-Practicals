@@ -61,4 +61,5 @@
         android:backgroundTint="@color/navyblue"
         android:text="@string/table_layout"
         android:textSize="@dimen/_13sdp" />
+
 </LinearLayout>

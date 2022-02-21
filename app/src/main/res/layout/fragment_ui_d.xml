@@ -17,13 +17,65 @@
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:backgroundTint="@color/navyblue"
-        android:text="@string/simple_list_view"
-        android:textSize="@dimen/_13sdp" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/navyblue"
+            android:text="@string/activity_lifecycle"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/intent"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_manager"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/exercice1"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/exercice_pr1_3"/>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/exercice2"/>
+        <Button
+            android:id="@+id/btn7"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/intent_filter_demo"/>
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_140sdp"
+            android:backgroundTint="@color/navyblue"
+            android:layout_height="wrap_content"
+            android:text="@string/pending_intent"/>
 
 </LinearLayout>

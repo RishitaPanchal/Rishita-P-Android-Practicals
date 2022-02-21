@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uiwidgetsd.activity.fragment.intents.FragmentTransactions">
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_30sdp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/navyblue"
+            android:text="@string/add_a"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:backgroundTint="@color/navyblue"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/remove_a" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:backgroundTint="@color/navyblue"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/add_b" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/container1">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:backgroundTint="@color/navyblue"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/remove_b" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:backgroundTint="@color/navyblue"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle"
+            android:text="@string/replace_a" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textColor="@color/white"
+            style="?android:attr/buttonBarButtonStyle"
+            android:backgroundTint="@color/navyblue"
+            android:text="@string/detach_a" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container2"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_below="@id/container1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:text="@string/a"/>
+        <TextView
+            android:id="@+id/status2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:text="@string/b"/>
+        <TextView
+            android:id="@+id/status3"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_below="@id/container2"
+        android:id="@+id/container111"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

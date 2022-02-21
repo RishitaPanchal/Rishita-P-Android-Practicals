@@ -28,4 +28,5 @@
         android:inputType="textPassword"
         android:minHeight="48dp"
         tools:ignore="TextFields" />
+
 </LinearLayout>

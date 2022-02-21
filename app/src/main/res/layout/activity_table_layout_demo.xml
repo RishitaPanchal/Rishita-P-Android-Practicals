@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- Table layout demo -->
-
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -201,4 +200,5 @@
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp" />
     </TableRow>
+
 </TableLayout>

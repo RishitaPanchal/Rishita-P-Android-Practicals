@@ -21,5 +21,6 @@
         android:layout_marginBottom="@dimen/_40sdp"
         android:background="@color/transperant"
         app:tabGravity="center"
-        app:tabMode="fixed"></com.google.android.material.tabs.TabLayout>
+        app:tabMode="fixed" />
+
 </RelativeLayout>
