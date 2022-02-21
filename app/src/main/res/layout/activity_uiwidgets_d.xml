@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="uiwidgetsd.activity.fragment.intents.UiwidgetsD">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/navyblue"
+        android:text="@string/activity_lifecycle"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/intent"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_manager"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice1"/>
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice_pr1_3"/>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice2"/>
+    <Button
+        android:id="@+id/btn7"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_filter_demo"/>
+    <Button
+        android:id="@+id/btn8"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="@dimen/_140sdp"
+        android:backgroundTint="@color/navyblue"
+        android:layout_height="wrap_content"
+        android:text="@string/pending_intent"/>
+
+</LinearLayout>

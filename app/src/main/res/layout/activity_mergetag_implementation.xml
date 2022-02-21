@@ -10,9 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <include layout="@layout/merge_tag_demo" />
-
     </LinearLayout>
 
 </LinearLayout>

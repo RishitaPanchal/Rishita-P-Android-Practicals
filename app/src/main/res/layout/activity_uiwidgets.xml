@@ -221,4 +221,5 @@
             tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
 
     </RelativeLayout>
+
 </RelativeLayout>

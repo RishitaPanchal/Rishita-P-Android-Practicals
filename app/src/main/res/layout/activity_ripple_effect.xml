@@ -42,4 +42,5 @@
         android:text="@string/ripple_with_border"
         android:textAllCaps="true"
         android:textSize="@dimen/_10sdp" />
+
 </RelativeLayout>
