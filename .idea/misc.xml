@@ -14,15 +14,20 @@
         <entry key="app/src/main/res/drawable/registration_design.xml" value="0.16458333333333333" />
         <entry key="app/src/main/res/drawable/ripple.xml" value="0.1546875" />
         <entry key="app/src/main/res/drawable/ripple2.xml" value="0.1625" />
+        <entry key="app/src/main/res/drawable/rotate_open_fab.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/round_shape_of_button.xml" value="0.1921875" />
+        <entry key="app/src/main/res/drawable/tab_indicator_default.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/underline_edittext.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/drawable/your_story.xml" value="0.178125" />
         <entry key="app/src/main/res/layout-v23/activity_main.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout-v26/expandable_listview_movies.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/activity_bottom_navigation_with_viewpager.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_calc_java_operators.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_constraint_layout_form2.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_exercise_practical1_using_viewmodel.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_fragment_transactions.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_imeoption.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_layout_demo_insta.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/activity_layouts.xml" value="0.1" />
@@ -39,10 +44,13 @@
         <entry key="app/src/main/res/layout/activity_tabbed_app.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_table_layout_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_uiwidgets.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_uiwidgets_d.xml" value="0.109375" />
         <entry key="app/src/main/res/layout/button_color.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout/content_constraint_layout_form.xml" value="0.1" />
         <entry key="app/src/main/res/layout/custom_toast.xml" value="0.1" />
         <entry key="app/src/main/res/layout/edittext_design.xml" value="0.12552083333333333" />
+        <entry key="app/src/main/res/layout/fragment_add_message.xml" value="0.10729166666666666" />
+        <entry key="app/src/main/res/layout/fragment_add_message2.xml" value="0.165625" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_constraint_layout_demoo.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/fragment_demo.xml" value="0.11458333333333333" />
@@ -50,6 +58,9 @@
         <entry key="app/src/main/res/layout/fragment_direct_message_relativelayout.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_explore_gridlayout.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_gallary.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_gallary2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_gallary_view.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/fragment_home_linear_layout.xml" value="0.13229166666666667" />
         <entry key="app/src/main/res/layout/fragment_home_linear_layout_demo.xml" value="0.14635416666666667" />
         <entry key="app/src/main/res/layout/fragment_home_linearlayout.xml" value="0.1" />
@@ -65,6 +76,7 @@
         <entry key="app/src/main/res/layout/fragment_u_i__a.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/fragment_ui_a.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/layout/fragment_ui_b.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_view_message.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/fragment_your_posts.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/include_tag_demo.xml" value="0.1480978260869565" />
         <entry key="app/src/main/res/layout/include_tag_insta_posts.xml" value="0.14427083333333332" />
@@ -73,6 +85,8 @@
         <entry key="app/src/main/res/layout/merge_tag_demo.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/registration_design.xml" value="0.1484375" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.14635416666666667" />
+        <entry key="app/src/main/res/menu/exercise_practical1_bottomnavigation.xml" value="1.1642857142857144" />
+        <entry key="app/src/main/res/menu/menu_bottomnavigation.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/xml/abc.xml" value="0.14583333333333334" />
       </map>
     </option>
