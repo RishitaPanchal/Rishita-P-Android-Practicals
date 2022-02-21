@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gallary"
+        android:icon="@drawable/ic_baseline_image_24"
+        android:title="Gallary" />
+    <item
+        android:id="@+id/addMessage"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="Add message" />
+    <item
+        android:id="@+id/viewMessage"
+        android:icon="@drawable/view_message"
+        android:title="View message" />
+
+</menu>

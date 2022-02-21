@@ -25,8 +25,9 @@
             android:id="@+id/icondown"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
-            android:layout_alignParentRight="true"
-            android:src="@drawable/down" />
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/down"
+            android:contentDescription="@string/email" />
 
         <RelativeLayout
             android:id="@+id/expandable_layout"
@@ -103,4 +104,5 @@
 
         </RelativeLayout>
     </RelativeLayout>
+
 </androidx.cardview.widget.CardView><!-- row-->
