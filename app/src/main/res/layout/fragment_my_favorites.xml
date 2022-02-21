@@ -19,4 +19,5 @@
         android:text="@string/my_favorites"
         android:textAllCaps="true"
         android:textSize="@dimen/_20sdp" />
+
 </LinearLayout>

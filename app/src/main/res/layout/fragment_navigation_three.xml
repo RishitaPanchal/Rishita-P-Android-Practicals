@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_400sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:backgroundTint="@color/lightWhite"
+        android:text="@string/a"
+        android:textAllCaps="true"
+        android:textColor="@color/navyblue"
+        android:textSize="@dimen/_43sdp" />
+
+</LinearLayout>

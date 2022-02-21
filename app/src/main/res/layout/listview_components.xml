@@ -13,7 +13,6 @@
         android:contentDescription="@string/email"
         android:src="@mipmap/ic_launcher_round" />
 
-
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"

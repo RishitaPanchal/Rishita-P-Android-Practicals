@@ -8,12 +8,14 @@ import com.example.kotlin_java_practicalss.R
 import com.example.uiwidgets.FragmentUiA
 import com.example.uiwidgets.FragmentUiB
 import com.example.uiwidgets.FragmentUiC
+import com.example.uiwidgets.FragmentUiD
 
 
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_1,
     R.string.tab_text_2,
-    R.string.tab_text_3
+    R.string.tab_text_3,
+    R.string.tab_text_4
 )
 
 class SectionsPagerAdapter(
@@ -27,7 +29,7 @@ class SectionsPagerAdapter(
             0 -> return FragmentUiA()
             1 -> return FragmentUiB()
             2 -> return FragmentUiC()
-           // 3 -> return FragmentUiD()
+            3 -> return FragmentUiD()
             else -> return f!!
         }
     }
