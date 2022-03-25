@@ -10,7 +10,7 @@ import com.example.kotlin_java_practicalss.databinding.ActivitySimpleRecyclervie
 class SimpleRecyclerview : AppCompatActivity() {
 
     private lateinit var binding: ActivitySimpleRecyclerviewBinding
-
+    lateinit var adapter: RecyclerviewAdapter;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_simple_recyclerview)

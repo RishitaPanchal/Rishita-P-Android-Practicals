@@ -3,6 +3,11 @@
     package="com.example.kotlin_java_practicalss">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +17,75 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
         <activity
+            android:name="permission.model.MultiplePermissions"
+            android:exported="false" />
+        <activity
+            android:name="permission.model.CameraStoragePermission"
+            android:exported="false" />
+        <activity
+            android:name="permission.model.RuntimePermissionModel"
+            android:exported="false" />
+        <activity
+            android:name="coroutines.CoroutinesScopeDemo"
+            android:exported="false" />
+        <activity
+            android:name="architecture.viewmodelfactory.ViewModelFactoryDemo"
+            android:exported="false" />
+        <activity
+            android:name="architecture.bindingadapters.LoadImageView"
+            android:exported="false" />
+        <activity
+            android:name="architecture.mvvm.MVVMCardView"
+            android:exported="false" />
+        <activity
+            android:name="architecture.mvc.MVCCardView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.ArchitectureNavigation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.AndroidNavigation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="architecture.mvp.CardMVP"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInToolbar"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.ScrollviewInsideNestedScrollview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInHorizontalList"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.NestedScrollview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.Webview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInRecyclerview"
+            android:exported="false" />
+        <activity
+            android:name="webServices.ListUsersManualJsonParse"
+            android:exported="false" />
+        <activity
+            android:name="webServices.SingleUserPage"
+            android:exported="false" />
+        <activity
+            android:name="webServices.ListUsers"
+            android:exported="false" />
+        <activity
+            android:name="webServices.LoginSignup"
+            android:exported="false" />
+        <activity
             android:name="uiwidgetsd.activity.fragment.intents.PendingIntent2"
             android:exported="false" />
         <activity
@@ -20,15 +94,20 @@
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.IntentFIlterToRecieveData"
             android:exported="true">
+
             <!-- ALlowing another apps to open our App -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
@@ -56,10 +135,13 @@
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.UiwidgetsD"
             android:exported="true">
-           <!-- <intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
+            </intent-filter>
+            -->
             <!-- Example of Deep linking -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -120,11 +202,6 @@
             android:exported="true"
             android:label="@string/title_activity_tabbed_app"
             android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.uiwidgets.MergetagImplementation"

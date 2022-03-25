@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+    <ImageView
+        android:id="@+id/img8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/explore_1" />
+
+</merge>

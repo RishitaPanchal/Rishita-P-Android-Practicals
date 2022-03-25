@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <!--    UIWidgetsA-->
     <string name="app_name">UIWidgets(A)</string>
@@ -57,12 +57,13 @@
     <!-- Dialogue box strings-->
     <string name="title">Thank you!</string>
     <string name="message">We will be in touch soon</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="title_activity_tab_layout_demo">Tab_layout_demo</string>
     <string name="tab_text_1">UI A</string>
     <string name="tab_text_2">UI B</string>
     <string name="tab_text_3">UI C</string>
     <string name="tab_text_4">UI D</string>
+    <string name="tab_text_5">UI E</string>
     <string name="title_activity_tabbed_app">Tabbed_app</string>
 
     <!-- Table layout strings-->
@@ -134,7 +135,7 @@
     <string name="you_have_entered">You have entered:</string>
     <string name="exercice1">Exercice PR 1</string>
     <string name="exercice2">Exercice PR 2</string>
-    <string name="exercice_pr1_3">Exercice PR1_3</string>
+    <string name="exercice_pr1_3">Exercice PR!_3</string>
     <string name="toastmsg1">From fragment 2</string>
     <string name="toastmsg2">From fragment 1</string>
     <string name="Toastmsg3">Saved data successfully!!</string>
@@ -176,7 +177,67 @@
     <string name="simple_list_view1">Simple list view</string>
     <string name="meta">meta</string>
     <string name="its_me1234">its_me1234</string>
-    <string name="button1">Button1</string>
+    <string name="button1">Button!</string>
     <string name="button2">Button2</string>
     <string name="button3">Button3</string>
+    <string name="login">Login</string>
+    <string name="list_users">Manual JSON Parsing</string>
+    <string name="job">job</string>
+    <string name="userEmail">eve.holt@reqres.in</string>
+    <string name="userPass">cityslicka</string>
+    <string name="hint">Check your logs!</string>
+
+    <!-- Android important views -->
+    <string name="search_in_recyclerview">Search In Recyclerview</string>
+    <string name="html_file">HTML file</string>
+    <string name="local">local pdf</string>
+    <string name="url_webview">URL</string>
+    <string name="webview">webview</string>
+    <string name="nested_scrollview">Nested scrollview</string>
+    <string name="horizontal_scrollview_2">Horizontal scrollview 2</string>
+    <string name="long_text">NestedScrollView is just like ScrollView , but it supports acting as both a nested scrolling parent and child on both new and old versions of Android. Nested scrolling is enabled by default.NestedScrollView is just like ScrollView , but it supports acting as both a nested scrolling parent and child on both new and old versions of Android. Nested scrolling is enabled by default.</string>
+    <string name="nested_scrollview_with_searchview">Nested scrollview with searchview</string>
+    <string name="horizontal_scroll_inside_vertical">Horizontal scroll inside vertical</string>
+    <string name="horizontal_scrollview">Horizontal scrollview</string>
+    <string name="vertical_scrollview">Vertical Scrollview</string>
+    <string name="searchview_in_actionbar">Searchview in actionbar</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="cvv">CVV</string>
+    <string name="card_number">Card number</string>
+    <string name="android_components">Android components</string>
+    <string name="android_architecture">Android architecture</string>
+    <string name="mvp">MVP</string>
+    <string name="mvc">MVC</string>
+    <string name="mvvm">mvvm</string>
+    <string name="binding_adapter_demo">Binding Adapter Demo</string>
+    <string name="binding_adapter">Binding Adapter</string>
+    <string name="enter_value">Enter value</string>
+    <string name="inverse_binding_adapter">Inverse binding adapter</string>
+    <string name="enter_number">Enter number</string>
+    <string name="result">Result</string>
+    <string name="viewmodel_factory">ViewModel Factory</string>
+    <string name="coroutines_demo">Coroutines demo</string>
+    <string name="add_new_card">Add new card</string>
+    <string name="location_permision">Location permision</string>
+    <string name="camera_permission">Camera permission</string>
+    <string name="runtime_permission">Runtime Permission</string>
+    <string name="choose_and_image">Choose and image</string>
+    <string name="camera_and_storage">Camera and storage</string>
+    <string name="take_a_picture">Take a picture</string>
+    <string name="multiple_permission">Multiple permission</string>
+    <!-- End Android important views -->
+
+
+    <!-- Permission model String-->
+    <string name="dialogue_title">Permission Required</string>
+    <string name="dialogue_message">Permission is required to use this app</string>
+    <string name="dialogue_title_multiple_permission">Need permission(s)</string>
+    <string name="dialogue_message_multiple_permission">Some permissions are required to do the task.</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_already_granted">Permission Already granted</string>
+    <string name="save_to_gallary">Saved to gallary</string>
+    <string name="error">Error!</string>
+    <string name="ask_for_permission">Ask for Permission</string>
+    <!-- End permission model -->
 </resources>
