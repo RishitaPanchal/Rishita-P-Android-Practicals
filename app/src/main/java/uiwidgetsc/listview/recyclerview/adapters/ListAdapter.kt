@@ -21,7 +21,6 @@ class ListAdapter(private val context: Activity, private val settingName: Array<
         uname.text = settingName[position]
         image.setImageResource(imgid[position])
         return rowView
-
     }
 
 }

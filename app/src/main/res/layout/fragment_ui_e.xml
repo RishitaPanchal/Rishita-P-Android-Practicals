@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="click"
+            type="android.view.View.OnClickListener" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context="com.example.uiwidgets.FragmentUiE">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/exercise"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/list_users" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/search_in_recyclerview" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/webview" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/horizontal_scroll_inside_vertical" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/nested_scrollview_with_searchview" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/nested_scrollview" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/searchview_in_actionbar" />
+
+    </LinearLayout>
+
+</layout>
