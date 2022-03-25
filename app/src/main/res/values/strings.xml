@@ -63,6 +63,7 @@
     <string name="tab_text_2">UI B</string>
     <string name="tab_text_3">UI C</string>
     <string name="tab_text_4">UI D</string>
+    <string name="tab_text_5">UI E</string>
     <string name="title_activity_tabbed_app">Tabbed_app</string>
 
     <!-- Table layout strings-->
@@ -179,4 +180,10 @@
     <string name="button1">Button1</string>
     <string name="button2">Button2</string>
     <string name="button3">Button3</string>
+    <string name="login">Login</string>
+    <string name="list_users">Manual JSON Parsing</string>
+    <string name="job">job</string>
+    <string name="userEmail">eve.holt@reqres.in</string>
+    <string name="userPass">cityslicka</string>
+    <string name="hint">Check your logs!</string>
 </resources>
