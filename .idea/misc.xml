@@ -37,6 +37,7 @@
         <entry key="app/src/main/res/layout/activity_list_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_list_users.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_list_users_manual_json_parse.xml" value="0.1375" />
+        <entry key="app/src/main/res/layout/activity_listview_with_image.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/activity_lmsintent_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_form_table_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_page_table_layout.xml" value="0.1" />
@@ -45,11 +46,16 @@
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.11145833333333334" />
         <entry key="app/src/main/res/layout/activity_merge_tag_implementation.xml" value="0.12447916666666667" />
         <entry key="app/src/main/res/layout/activity_mergetag_implementation.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/layout/activity_nested_scrollview.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_pending_intent2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_pending_intent_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_practical2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_relative_layout_demo.xml" value="0.1189710610932476" />
         <entry key="app/src/main/res/layout/activity_ripple_effect.xml" value="0.14322916666666666" />
+        <entry key="app/src/main/res/layout/activity_scrollview_inside_nested_scrollview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_searchview_in_horizontal_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_searchview_in_recyclerview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_searchview_in_toolbar.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_simple_list_view.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_simple_recyclerview.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_single_user_page.xml" value="0.1" />
@@ -60,6 +66,7 @@
         <entry key="app/src/main/res/layout/activity_uiwidgets.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_uiwidgets_d.xml" value="0.109375" />
         <entry key="app/src/main/res/layout/activity_viewpager2_demo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_webview.xml" value="0.17" />
         <entry key="app/src/main/res/layout/button_color.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout/content_constraint_layout_form.xml" value="0.1" />
         <entry key="app/src/main/res/layout/custom_alert.xml" value="0.25" />
@@ -110,9 +117,12 @@
         <entry key="app/src/main/res/layout/fragment_ui_e.xml" value="0.12864583333333332" />
         <entry key="app/src/main/res/layout/fragment_view_message.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/fragment_your_posts.xml" value="0.11684782608695653" />
+        <entry key="app/src/main/res/layout/horizontal_list_item.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/images_in_scrollview.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/include_tag_demo.xml" value="0.1480978260869565" />
         <entry key="app/src/main/res/layout/include_tag_insta_posts.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/include_tag_insta_stories.xml" value="0.11911231884057971" />
+        <entry key="app/src/main/res/layout/item_for_searchview.xml" value="0.33" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_users_jsonparse.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/listview_components.xml" value="0.1" />
@@ -126,6 +136,7 @@
         <entry key="app/src/main/res/menu/bottom_navigation_pr2.xml" value="0.1375" />
         <entry key="app/src/main/res/menu/exercise_practical1_bottomnavigation.xml" value="1.1642857142857144" />
         <entry key="app/src/main/res/menu/menu_bottomnavigation.xml" value="0.10729166666666666" />
+        <entry key="app/src/main/res/menu/searchview.xml" value="0.1375" />
         <entry key="app/src/main/res/xml/abc.xml" value="0.14583333333333334" />
       </map>
     </option>

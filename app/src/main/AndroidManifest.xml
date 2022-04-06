@@ -14,6 +14,24 @@
         android:theme="@style/Theme.Kotlin_java_practicalss"
         android:usesCleartextTraffic="true">
         <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInToolbar"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.ScrollviewInsideNestedScrollview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInHorizontalList"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.NestedScrollview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.Webview"
+            android:exported="false" />
+        <activity
+            android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInRecyclerview"
+            android:exported="false" />
+        <activity
             android:name="webServices.ListUsersManualJsonParse"
             android:exported="false" />
         <activity
