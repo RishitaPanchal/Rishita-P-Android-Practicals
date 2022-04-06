@@ -34,8 +34,8 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_20sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/login" />
 
         <Button
@@ -43,8 +43,8 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/list_users" />
 
         <Button
@@ -52,8 +52,8 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/search_in_recyclerview" />
 
         <Button
@@ -61,8 +61,8 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/webview" />
 
         <Button
@@ -70,8 +70,8 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/horizontal_scroll_inside_vertical" />
 
         <Button
@@ -79,17 +79,17 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/nested_scrollview_with_searchview" />
 
         <Button
             android:id="@+id/btn7"
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
-            android:onClick="@{click::onClick}"
             android:layout_marginTop="@dimen/_10sdp"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/nested_scrollview" />
 
         <Button
@@ -97,9 +97,10 @@
             android:layout_width="@dimen/_140sdp"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
-            android:onClick="@{click::onClick}"
             android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
             android:text="@string/searchview_in_actionbar" />
 
     </LinearLayout>
+
 </layout>
