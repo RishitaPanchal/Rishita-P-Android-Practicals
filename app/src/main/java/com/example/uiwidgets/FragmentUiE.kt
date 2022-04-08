@@ -1,17 +1,15 @@
 package com.example.uiwidgets
 
+import architecture.mvp.CardMVP
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.HorizontalScrollView
 import webServices.ListUsersManualJsonParse
 import com.example.kotlin_java_practicalss.databinding.FragmentUiEBinding
-import com.example.kotlin_java_practicalss.databinding.HorizontalListItemBinding
 import uiwidgetse.searchview.nestedscrollview.*
 
 import webServices.LoginSignup
@@ -67,13 +65,18 @@ class FragmentUiE : Fragment(), View.OnClickListener {
             }
             binding.btn7.id -> {
                 requireActivity().run {
-                    startActivity(Intent(this, ScrollviewInsideNestedScrollview::class.java))
+                    startActivity(Intent(this, CardMVP::class.java))
                 }
             }
 
             binding.btn8.id -> {
                 requireActivity().run {
                     startActivity(Intent(this, SearchviewInToolbar::class.java))
+                }
+            }
+            binding.btn9.id -> {
+                requireActivity().run {
+                    startActivity(Intent(this, CardMVP::class.java))
                 }
             }
         }

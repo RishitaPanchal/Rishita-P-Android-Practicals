@@ -54,7 +54,6 @@ class LoginSignup : AppCompatActivity() {
     }
 
     private fun sendPostRequest(email: String, password: String) : Boolean {
-
         val credentials = JSONObject()
         credentials.put("email", email)
         credentials.put("password", password)

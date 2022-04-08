@@ -201,6 +201,14 @@
     <string name="horizontal_scrollview">Horizontal scrollview</string>
     <string name="vertical_scrollview">Vertical Scrollview</string>
     <string name="searchview_in_actionbar">Searchview in actionbar</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="cvv">CVV</string>
+    <string name="card_number">Card number</string>
+    <string name="android_components">Android components</string>
+    <string name="android_architecture">Android architecture</string>
+    <string name="mvp">MVP</string>
+    <string name="mvc">MVC</string>
+    <string name="add_new_card">Add new card</string>
     <!-- End Android important views -->
 
 </resources>

@@ -1,12 +1,9 @@
 package webServices
 
 import android.content.Intent
-import android.opengl.Visibility
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.View
-import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -15,8 +12,6 @@ import com.example.kotlin_java_practicalss.databinding.ActivityListUsersBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 
 class ListUsers : AppCompatActivity() {
 
@@ -50,7 +45,7 @@ class ListUsers : AppCompatActivity() {
                     adapter = ApiItemsAdapter(this@ListUsers, responseBody.usersList)
                     binding.listItems.adapter = adapter
                     binding.listItems.layoutManager = LinearLayoutManager(this@ListUsers)
-                    adapter.setOnItemClickListner(object : ApiItemsAdapter.onItemClickListener {
+                    adapter.setOnItemClickListner(object : ApiItemsAdapter.OnCLickListener {
                         override fun onItemClick(position: Int) {
                             val intent = Intent(this@ListUsers, SingleUserPage::class.java)
                             intent.putExtra("idUser", responseBody.usersList[position].id);

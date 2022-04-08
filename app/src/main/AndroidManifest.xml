@@ -14,6 +14,30 @@
         android:theme="@style/Theme.Kotlin_java_practicalss"
         android:usesCleartextTraffic="true">
         <activity
+            android:name="architecture.mvvm.MVVMCard"
+            android:exported="false" />
+        <activity
+            android:name="architecture.mvvm.model.MVVMCard"
+            android:exported="false" />
+        <activity
+            android:name="architecture.mvc.MVCCardView"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.ArchitectureNavigation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.uiwidgets.AndroidNavigation"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="architecture.mvp.CardMVP"
+            android:exported="false" />
+        <activity
             android:name="uiwidgetse.searchview.nestedscrollview.SearchviewInToolbar"
             android:exported="false" />
         <activity

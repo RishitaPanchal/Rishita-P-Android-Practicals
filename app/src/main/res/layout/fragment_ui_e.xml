@@ -101,6 +101,15 @@
             android:onClick="@{click::onClick}"
             android:text="@string/searchview_in_actionbar" />
 
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="@color/navyblue"
+            android:onClick="@{click::onClick}"
+            android:text="@string/searchview_in_actionbar" />
+
     </LinearLayout>
 
 </layout>

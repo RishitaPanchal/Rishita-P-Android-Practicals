@@ -17,15 +17,15 @@ class ApiItemsAdapter(val context: Context, private val userData: List<Data>) :
     RecyclerView.Adapter<ApiItemsAdapter.ViewHolder>() {
 
     /** Instance variable */
-    private lateinit var mListener: onItemClickListener
+    private lateinit var mListener: OnCLickListener
 
     /** Interface */
-    interface onItemClickListener {
+    interface OnCLickListener {
         fun onItemClick(position: Int)
     }
 
     /** Function */
-    fun setOnItemClickListner(listener: onItemClickListener) {
+    fun setOnItemClickListner(listener: OnCLickListener) {
         mListener = listener
     }
 
@@ -40,8 +40,8 @@ class ApiItemsAdapter(val context: Context, private val userData: List<Data>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
             val item = userData[position]
             val fullName = "${item.firstName} ${item.lastName}"
-            holder.tvItem.text = item.email
-            holder.tvItem2.text = fullName
+            holder.title.text = item.email
+            holder.subTitle.text = fullName
             Picasso.get().load(item.avatar).into(holder.image)
         }
 
@@ -50,10 +50,10 @@ class ApiItemsAdapter(val context: Context, private val userData: List<Data>) :
     }
 
     /** Class to set Views */
-    class ViewHolder(view: View, listener: onItemClickListener) : RecyclerView.ViewHolder(view) {
+    class ViewHolder(view: View, listener: OnCLickListener) : RecyclerView.ViewHolder(view) {
 
-        val tvItem: TextView = view.title
-        val tvItem2: TextView = view.subtitle
+        val title: TextView = view.title
+        val subTitle: TextView = view.subtitle
         val image: ImageView = view.image
         val layout: LinearLayout = view.layout
         init {

@@ -23,8 +23,13 @@
         <entry key="app/src/main/res/drawable/your_story.xml" value="0.178125" />
         <entry key="app/src/main/res/layout-v23/activity_main.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout-v26/expandable_listview_movies.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/activity_add_card_details.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_android_navigation.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_architecture_navigation.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_bottom_navigation_with_viewpager.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_calc_java_operators.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_card_mvc.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_card_mvp.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_constraint_layout_form2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_exercise_practical1_using_viewmodel.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets.xml" value="0.1" />
@@ -40,12 +45,15 @@
         <entry key="app/src/main/res/layout/activity_listview_with_image.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/activity_lmsintent_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_form_table_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_mvc.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login_page_table_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_signup.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.11145833333333334" />
         <entry key="app/src/main/res/layout/activity_merge_tag_implementation.xml" value="0.12447916666666667" />
         <entry key="app/src/main/res/layout/activity_mergetag_implementation.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/layout/activity_mvccard_vieww.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_mvvmcard.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/activity_nested_scrollview.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_pending_intent2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_pending_intent_demo.xml" value="0.1" />

@@ -30,7 +30,7 @@ class ApiItemsAdapterList(val context: Context, private val userData: ArrayList<
             holder.tvItem.text = item.email
             holder.tvItem2.text = fullName
             Picasso.get().load(item.avatar).into(holder.image)
-        }
+    }
 
     override fun getItemCount(): Int {
         return userData.size
