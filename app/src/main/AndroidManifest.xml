@@ -3,6 +3,7 @@
     package="com.example.kotlin_java_practicalss">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,111 +11,148 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kotlin_java_practicalss">
+        android:theme="@style/Theme.Kotlin_java_practicalss"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name="webServices.ListUsersManualJsonParse"
+            android:exported="false" />
+
+        <activity
+            android:name="webServices.SingleUserPage"
+            android:exported="false" />
+
+        <activity
+            android:name="webServices.ListUsers"
+            android:exported="false" />
+
+        <activity
+            android:name="webServices.LoginSignup"
+            android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.PendingIntent2"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.PendingIntentDemo"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.IntentFIlterToRecieveData"
             android:exported="true">
+
             <!-- ALlowing another apps to open our App -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
+
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="image/*" />
             </intent-filter>
+
         </activity>
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.Practical2"
             android:exported="true" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.FragmentContainerViewDemo"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.ExercisePractical1UsingViewmodel"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.FragmentTransactions"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.IntentRecieverActivity"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.LMSIntentDemo"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.ActivityLifecycleDemo"
             android:exported="true" />
+
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.UiwidgetsD"
             android:exported="true">
-           <!-- <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
-            <!-- Example of Deep linking -->
+
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data
                     android:host="www.google.com"
                     android:scheme="https" />
             </intent-filter>
+
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-
                 <data
                     android:host="www.google.com"
                     android:scheme="http" />
             </intent-filter>
+
         </activity>
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.Viewpager2Demo"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.BottomNavigationWithViewpager"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.ViewpagerDemo"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.ExpandableRecyclerview"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.StrageredGridviewRecyclerview"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.ExpandableListvieww"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.SimpleRecyclerview"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.SimpleListView"
             android:exported="false" />
+
         <activity
             android:name="uiwidgetsc.listview.recyclerview.adapters.ListviewWithImage"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.TableLayoutDemo"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.SplashScreenUsingFrameLayout"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.TabbedApp"
             android:exported="true"
@@ -125,29 +163,39 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
         <activity
             android:name="com.example.uiwidgets.MergetagImplementation"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.ConstraintLayoutForm"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.LayoutsDemo"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.RippleEffect"
             android:exported="false" />
+
         <activity
             android:name="com.example.uiwidgets.IMEOption"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
+
         </activity>
+
         <activity
             android:name="com.example.uiwidgets.UIWidgetsA"
             android:exported="false" />
+
     </application>
 
 </manifest>
