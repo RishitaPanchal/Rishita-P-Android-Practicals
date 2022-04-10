@@ -14,7 +14,10 @@
         android:theme="@style/Theme.Kotlin_java_practicalss"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="architecture.mvvm.MVVMCard"
+            android:name="architecture.bindingadapters.LoadImageView"
+            android:exported="false" />
+        <activity
+            android:name="architecture.mvvm.MVVMCardView"
             android:exported="false" />
         <activity
             android:name="architecture.mvvm.model.MVVMCard"

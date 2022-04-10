@@ -209,6 +209,9 @@
     <string name="mvp">MVP</string>
     <string name="mvc">MVC</string>
     <string name="add_new_card">Add new card</string>
+    <string name="mvvm">mvvm</string>
+    <string name="binding_adapter_demo">Binding Adapter Demo</string>
+    <string name="binding_adapter">Binding Adapter</string>
     <!-- End Android important views -->
 
 </resources>
