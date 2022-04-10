@@ -3,6 +3,7 @@
     package="com.example.kotlin_java_practicalss">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +11,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kotlin_java_practicalss">
+        android:theme="@style/Theme.Kotlin_java_practicalss"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="webServices.ListUsersManualJsonParse"
+            android:exported="false" />
+        <activity
+            android:name="webServices.SingleUserPage"
+            android:exported="false" />
+        <activity
+            android:name="webServices.ListUsers"
+            android:exported="false" />
+        <activity
+            android:name="webServices.LoginSignup"
+            android:exported="false" />
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.PendingIntent2"
             android:exported="false" />
@@ -20,15 +34,20 @@
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.IntentFIlterToRecieveData"
             android:exported="true">
+
             <!-- ALlowing another apps to open our App -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
@@ -56,10 +75,13 @@
         <activity
             android:name="uiwidgetsd.activity.fragment.intents.UiwidgetsD"
             android:exported="true">
-           <!-- <intent-filter>
+
+            <!--
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
+            </intent-filter>
+            -->
             <!-- Example of Deep linking -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -120,9 +142,9 @@
             android:exported="true"
             android:label="@string/title_activity_tabbed_app"
             android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

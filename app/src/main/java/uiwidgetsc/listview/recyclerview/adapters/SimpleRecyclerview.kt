@@ -1,16 +1,17 @@
 package uiwidgetsc.listview.recyclerview.adapters
 
 import android.os.Bundle
+import androidx.appcompat.widget.SearchView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kotlin_java_practicalss.R
 import com.example.kotlin_java_practicalss.databinding.ActivitySimpleRecyclerviewBinding
 
-class SimpleRecyclerview : AppCompatActivity() {
+class SimpleRecyclerview : AppCompatActivity(), SearchView.OnQueryTextListener {
 
     private lateinit var binding: ActivitySimpleRecyclerviewBinding
-
+    lateinit var adapter: RecyclerviewAdapter;
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_simple_recyclerview)
@@ -36,6 +37,14 @@ class SimpleRecyclerview : AppCompatActivity() {
 
         val itemAdapter = RecyclerviewAdapter(this, settings)
         binding.recyclerview.adapter = itemAdapter
+    }
+
+    override fun onQueryTextSubmit(query: String?): Boolean {
+        return false
+    }
+
+    override fun onQueryTextChange(newText: String?): Boolean {
+        return false
     }
 
 }
