@@ -2,7 +2,7 @@ package architecture.mvvm
 
 import android.text.TextUtils
 
-class MVVMCardModel(val cardNumber: String, val cvv: String) {
+class MVVMCardModel(private val cardNumber: String, val cvv: String) {
 
     fun validation(): Int {
         return if(TextUtils.isEmpty(cardNumber) || TextUtils.isEmpty(cvv)) {
