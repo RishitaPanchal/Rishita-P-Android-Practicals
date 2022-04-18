@@ -2,6 +2,12 @@ package architecture.mvp
 
 import android.text.TextUtils
 
+enum class CustomError {
+    EmptyFields,
+    InvalidCardNumber,
+    InValidCVV,
+    Success
+}
 
 class UserModel(email: String, password: String): IUserModel {
 
@@ -21,15 +27,15 @@ class UserModel(email: String, password: String): IUserModel {
         return cvv
     }
 
-    override fun validation(): Int {
+    override fun validation(): String{
         return if(TextUtils.isEmpty(getCardNumber()) || TextUtils.isEmpty(getCVV())) {
-            0
+            CustomError.EmptyFields.name
         } else if(getCardNumber().length < 12) {
-            1
+            CustomError.InvalidCardNumber.name
         } else if(getCVV().length > 3 || getCVV().length < 3) {
-            2
+            CustomError.InValidCVV.name
         } else {
-            -1
+            CustomError.Success.name
         }
     }
 

@@ -4,16 +4,15 @@ import android.text.TextUtils
 
 class MVVMCardModel(private val cardNumber: String, val cvv: String) {
 
-    fun validation(): Int {
-        return if(TextUtils.isEmpty(cardNumber) || TextUtils.isEmpty(cvv)) {
-            0
-        } else if(cardNumber.length < 12) {
-            1
-        } else if(cvv.length > 3 || cvv.length < 3) {
-            2
-        } else {
-            -1
-        }
+    /** Functions */
+    fun emptyDetails(): Boolean {
+        return ((TextUtils.isEmpty(cardNumber) || TextUtils.isEmpty(cvv)))
+    }
+    fun validCardNumber(): Boolean {
+        return cardNumber.length < 12
+    }
+    fun validCVV(): Boolean {
+        return cvv.length != 3
     }
 
 }

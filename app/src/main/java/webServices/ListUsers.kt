@@ -6,9 +6,12 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.kotlin_java_practicalss.R
 import com.example.kotlin_java_practicalss.databinding.ActivityListUsersBinding
+import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -28,8 +31,9 @@ class ListUsers : AppCompatActivity() {
         getResponse()
     }
 
-    /** Function */
-    private fun getResponse() {
+
+        /** Function */
+       private fun getResponse() {
         APIClient.retrofitBuilder.getData().enqueue(object : Callback<MainDataClass> {
             override fun onFailure(call: Call<MainDataClass>, t: Throwable) {
                 Log.e(javaClass.simpleName, "error: ${t.printStackTrace()}")

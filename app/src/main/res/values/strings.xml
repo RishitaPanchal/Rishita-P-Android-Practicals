@@ -208,10 +208,16 @@
     <string name="android_architecture">Android architecture</string>
     <string name="mvp">MVP</string>
     <string name="mvc">MVC</string>
-    <string name="add_new_card">Add new card</string>
     <string name="mvvm">mvvm</string>
     <string name="binding_adapter_demo">Binding Adapter Demo</string>
     <string name="binding_adapter">Binding Adapter</string>
+    <string name="enter_value">Enter value</string>
+    <string name="inverse_binding_adapter">Inverse binding adapter</string>
+    <string name="enter_number">Enter number</string>
+    <string name="result">Result</string>
+    <string name="viewmodel_factory">ViewModel Factory</string>
+    <string name="coroutines_demo">Coroutines demo</string>
+    <string name="add_new_card">Add new card</string>
     <!-- End Android important views -->
 
 </resources>

@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlin_java_practicalss.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.recycler_view_items_retrofit.view.*
+import kotlinx.coroutines.CoroutineScope
 
 /** Adapter recyclerview */
 class ApiItemsAdapterList(val context: Context, private val userData: ArrayList<Data>) :

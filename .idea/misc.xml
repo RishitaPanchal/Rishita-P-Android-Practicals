@@ -31,6 +31,7 @@
         <entry key="app/src/main/res/layout/activity_card_mvc.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_card_mvp.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_constraint_layout_form2.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_coroutin_scope.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_exercise_practical1_using_viewmodel.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets2.xml" value="0.1" />
@@ -44,7 +45,7 @@
         <entry key="app/src/main/res/layout/activity_list_users_manual_json_parse.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_listview_with_image.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/activity_lmsintent_demo.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_load_image_view.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_load_image_view.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_login_form_table_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_mvc.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login_page_table_layout.xml" value="0.1" />
@@ -54,7 +55,7 @@
         <entry key="app/src/main/res/layout/activity_merge_tag_implementation.xml" value="0.12447916666666667" />
         <entry key="app/src/main/res/layout/activity_mergetag_implementation.xml" value="0.13854166666666667" />
         <entry key="app/src/main/res/layout/activity_mvccard_vieww.xml" value="0.13229166666666667" />
-        <entry key="app/src/main/res/layout/activity_mvvmcard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_mvvmcard.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/activity_nested_scrollview.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_pending_intent2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_pending_intent_demo.xml" value="0.1" />
@@ -74,6 +75,7 @@
         <entry key="app/src/main/res/layout/activity_table_layout_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_uiwidgets.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_uiwidgets_d.xml" value="0.109375" />
+        <entry key="app/src/main/res/layout/activity_view_model_factory_demo.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_viewpager2_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_webview.xml" value="0.17" />
         <entry key="app/src/main/res/layout/button_color.xml" value="0.1640625" />
@@ -123,7 +125,7 @@
         <entry key="app/src/main/res/layout/fragment_ui_b.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_ui_c.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_ui_d.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_ui_e.xml" value="0.12864583333333332" />
+        <entry key="app/src/main/res/layout/fragment_ui_e.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_view_message.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/fragment_your_posts.xml" value="0.11684782608695653" />
         <entry key="app/src/main/res/layout/horizontal_list_item.xml" value="0.17" />

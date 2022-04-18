@@ -1,13 +1,13 @@
 package architecture.mvc
 
-class MVCCardController(val model: MVCCardModel, val view: MVCCardView) {
+class MVCCardController(private val model: MVCCardModel, val view: MVCCardView) {
 
     private fun getCardNumber(): String {
         return model.cardNumber
     }
 
     private fun getCvv(): String {
-        return  model.cvv
+        return model.cvv
     }
 
     fun setCardNumber(cardNumber: String) {
@@ -28,7 +28,7 @@ class MVCCardController(val model: MVCCardModel, val view: MVCCardView) {
         } else if (cvv.length < 3 || cvv.length > 3) {
             "Invalid CVV"
         } else {
-            "Suscess"
+            "Success"
         }
     }
 

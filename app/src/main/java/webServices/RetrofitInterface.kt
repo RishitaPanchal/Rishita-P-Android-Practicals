@@ -2,6 +2,7 @@ package webServices
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Call
+import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.*
@@ -11,6 +12,9 @@ interface RetrofitInterface {
 
     @GET("/api/users?delay=3")
     fun getData(): Call<MainDataClass>
+
+    @GET("/api/users?delay=3")
+    suspend fun getDataCoroutine(): Response<MainDataClass>
 
     @POST("api/users")
     fun postData(@Body postData: PostData): Call<PostResponseData>
@@ -42,5 +46,4 @@ class APIClient {
                 .create(RetrofitInterface::class.java)
         }
     }
-
 }

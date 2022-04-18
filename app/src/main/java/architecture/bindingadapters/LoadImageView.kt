@@ -2,11 +2,15 @@ package architecture.bindingadapters
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.EditText
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
+import androidx.databinding.InverseBindingAdapter
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.example.kotlin_java_practicalss.databinding.ActivityLoadImageViewBinding
+import java.lang.NumberFormatException
 
 class LoadImageView : AppCompatActivity() {
 
@@ -29,3 +33,5 @@ fun bindingImage(imageView: ImageView, imageUri: String) {
         .load(imageUri)
         .into(imageView)
 }
+
+

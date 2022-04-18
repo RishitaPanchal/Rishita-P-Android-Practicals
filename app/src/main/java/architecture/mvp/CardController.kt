@@ -7,19 +7,12 @@ class CardController(private val cardView: ICardView) : ICardController {
         val userModel = UserModel(cardNumber, cvv)
 
         when (userModel.validation()) {
-            0 -> {
-                cardView.failure("Fields should not be empty!!")
-            }
-            1 -> {
-                cardView.failure("Card number must contains 12 digits!!")
-            }
-            2 -> {
-                cardView.failure("CVV must be of 3 digits")
-            }
-            else -> {
-                cardView.success("Succesfully added!")
-            }
+            "EmptyFields" -> cardView.failure("Fields should not be empty!!")
+            "InvalidCardNumber" -> cardView.failure("Card number must contains 12 digits!!")
+            "InValidCVV" ->  cardView.failure("CVV must be of 3 digits")
+            else -> cardView.success("Successfully added!")
         }
+
     }
 
 }
