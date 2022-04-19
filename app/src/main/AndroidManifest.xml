@@ -4,6 +4,9 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -11,8 +14,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kotlin_java_practicalss"
-        android:usesCleartextTraffic="true">
+        android:theme="@style/Theme.Kotlin_java_practicalss">
+        <activity
+            android:name="permission.model.CameraStoragePermission"
+            android:exported="false" />
+        <activity
+            android:name="permission.model.RuntimePermissionModel"
+            android:exported="false" />
         <activity
             android:name="coroutines.CoroutinesScopeDemo"
             android:exported="false" />
@@ -24,9 +32,6 @@
             android:exported="false" />
         <activity
             android:name="architecture.mvvm.MVVMCardView"
-            android:exported="false" />
-        <activity
-            android:name="architecture.mvvm.model.MVVMCard"
             android:exported="false" />
         <activity
             android:name="architecture.mvc.MVCCardView"

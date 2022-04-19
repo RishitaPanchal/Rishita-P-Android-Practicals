@@ -218,6 +218,12 @@
     <string name="viewmodel_factory">ViewModel Factory</string>
     <string name="coroutines_demo">Coroutines demo</string>
     <string name="add_new_card">Add new card</string>
+    <string name="location_permision">Location permision</string>
+    <string name="camera_permission">Camera permission</string>
+    <string name="runtime_permission">Runtime Permission</string>
+    <string name="choose_and_image">Choose and image</string>
+    <string name="camera_and_storage">Camera and storage</string>
+    <string name="take_a_picture">Take a picture</string>
     <!-- End Android important views -->
 
 </resources>

@@ -28,6 +28,7 @@
         <entry key="app/src/main/res/layout/activity_architecture_navigation.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_bottom_navigation_with_viewpager.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_calc_java_operators.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_camera_storage_permission.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_card_mvc.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_card_mvp.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_constraint_layout_form2.xml" value="0.22" />
@@ -62,6 +63,7 @@
         <entry key="app/src/main/res/layout/activity_practical2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_relative_layout_demo.xml" value="0.1189710610932476" />
         <entry key="app/src/main/res/layout/activity_ripple_effect.xml" value="0.14322916666666666" />
+        <entry key="app/src/main/res/layout/activity_runtime_permission_model.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_scrollview_inside_nested_scrollview.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_searchview_in_horizontal_list.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_searchview_in_recyclerview.xml" value="0.1" />
