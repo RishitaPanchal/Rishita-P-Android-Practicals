@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlin_java_practicalss.databinding.ActivityAndroidNavigationBinding
 import permission.model.CameraStoragePermission
+import permission.model.MultiplePermissions
 import permission.model.RuntimePermissionModel
 
 class AndroidNavigation : AppCompatActivity() {
@@ -33,6 +34,11 @@ class AndroidNavigation : AppCompatActivity() {
 
         binding.btn4.setOnClickListener {
             val i = Intent(this, CameraStoragePermission::class.java)
+            startActivity(i)
+        }
+
+        binding.btn5.setOnClickListener {
+            val i = Intent(this, MultiplePermissions::class.java)
             startActivity(i)
         }
     }

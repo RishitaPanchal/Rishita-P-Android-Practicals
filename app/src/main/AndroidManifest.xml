@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
         <activity
+            android:name="permission.model.MultiplePermissions"
+            android:exported="false" />
+        <activity
             android:name="permission.model.CameraStoragePermission"
             android:exported="false" />
         <activity
@@ -198,11 +201,6 @@
             android:exported="true"
             android:label="@string/title_activity_tabbed_app"
             android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.uiwidgets.MergetagImplementation"

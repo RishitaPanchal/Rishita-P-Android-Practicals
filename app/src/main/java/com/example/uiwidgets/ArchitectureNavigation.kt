@@ -45,4 +45,5 @@ class ArchitectureNavigation : AppCompatActivity() {
             startActivity(i)
         }
     }
+
 }
