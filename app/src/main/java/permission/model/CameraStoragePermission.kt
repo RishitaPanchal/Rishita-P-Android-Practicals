@@ -1,6 +1,4 @@
 package permission.model
-
-import android.app.Activity
 import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -21,6 +19,7 @@ import com.example.kotlin_java_practicalss.databinding.ActivityCameraStoragePerm
 class CameraStoragePermission : AppCompatActivity(), View.OnClickListener {
 
     private lateinit var binding: ActivityCameraStoragePermissionBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCameraStoragePermissionBinding.inflate(layoutInflater)
@@ -29,8 +28,8 @@ class CameraStoragePermission : AppCompatActivity(), View.OnClickListener {
     }
 
     companion object {
-        private const val PICK_IMAGE_FROM_GALLARY = 1001
-        private const val TAKE_AN_IMAGE = 1002
+        private val PICK_IMAGE_FROM_GALLARY = 1001
+        private val TAKE_AN_IMAGE = 1002
     }
 
     override fun onClick(p0: View?) {
@@ -45,18 +44,17 @@ class CameraStoragePermission : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun checkForPermission(permission: String, name: String, requestCode: Int) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            when {
-                ContextCompat.checkSelfPermission(applicationContext, permission) == PackageManager.PERMISSION_GRANTED -> {
-                    when(requestCode) {
-                        PICK_IMAGE_FROM_GALLARY -> pickImageFromGallary()
-                        TAKE_AN_IMAGE -> takeAnImageFromCamera()
-                    }
-                    Toast.makeText(this,"Permission granted", Toast.LENGTH_SHORT).show()
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) when {
+            ContextCompat.checkSelfPermission(applicationContext, permission) == PackageManager.PERMISSION_GRANTED -> {
+                if (requestCode == 1001) {
+                    pickImageFromGallary()
+                } else {
+                    takeAnImageFromCamera()
                 }
-                shouldShowRequestPermissionRationale(permission) -> displayDialogue(name)
-                else -> ActivityCompat.requestPermissions(this, arrayOf(permission), requestCode )
+                Toast.makeText(this,"Permission granted", Toast.LENGTH_SHORT).show()
             }
+            shouldShowRequestPermissionRationale(permission) -> displayDialogue(name)
+            else -> ActivityCompat.requestPermissions(this, arrayOf(permission), requestCode )
         }
     }
 
@@ -87,7 +85,6 @@ class CameraStoragePermission : AppCompatActivity(), View.OnClickListener {
         grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-
         if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Toast.makeText(this,"Permission for allowed", Toast.LENGTH_SHORT).show()
             when (requestCode) {
