@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_marginStart="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="@dimen/_60sdp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/email"
+        android:layout_height="@dimen/_60sdp"/>
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_20sdp"
+        android:text="@string/my_name"
+        android:textColor="@color/navyblue"/>
+
+    <TextView
+        android:id="@+id/myEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_10sdp"
+        android:text="@string/rishitapanchal2707_gmail_com"
+        android:textColor="@color/navyblue"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/navyblue"/>
+
+
+</LinearLayout>

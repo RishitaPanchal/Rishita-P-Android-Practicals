@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.kotlin_java_practicalss.databinding.ActivityAndroidNavigationBinding
+import design.support.library.CoordinatorLayout
+import design.support.library.NavigationView
 import permission.model.CameraStoragePermission
 import permission.model.MultiplePermissions
 import permission.model.RuntimePermissionModel
@@ -39,6 +41,16 @@ class AndroidNavigation : AppCompatActivity() {
 
         binding.btn5.setOnClickListener {
             val i = Intent(this, MultiplePermissions::class.java)
+            startActivity(i)
+        }
+
+        binding.btn6.setOnClickListener {
+            val i = Intent(this, NavigationView::class.java)
+            startActivity(i)
+        }
+
+        binding.btn7.setOnClickListener {
+            val i = Intent(this, CoordinatorLayout::class.java)
             startActivity(i)
         }
     }

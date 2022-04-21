@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/message"
+        android:title="@string/menu_message"
+        android:icon="@drawable/new_message"/>
+
+    <item
+        android:id="@+id/sync"
+        android:title="sync"
+        android:icon="@drawable/new_message"/>
+
+    <item
+        android:id="@+id/trash"
+        android:title="trash"
+        android:icon="@drawable/delete"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:title="@string/my_profile">
+
+        <menu>
+            <item
+                android:id="@+id/profile1"
+                android:title="@string/menu_settings"
+                android:icon="@drawable/settings"/>
+        </menu>
+    </item>
+
+</menu>

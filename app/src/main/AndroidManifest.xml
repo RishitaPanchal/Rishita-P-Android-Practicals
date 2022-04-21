@@ -17,6 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
         <activity
+            android:name="design.support.library.CoordinatorLayout"
+            android:exported="false" />
+        <activity
+            android:name="design.support.library.NavigationView"
+            android:exported="false" />
+        <activity
             android:name="permission.model.MultiplePermissions"
             android:exported="false" />
         <activity
@@ -136,12 +142,6 @@
             android:name="uiwidgetsd.activity.fragment.intents.UiwidgetsD"
             android:exported="true">
 
-            <!--
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-            -->
             <!-- Example of Deep linking -->
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -201,8 +201,7 @@
             android:name="com.example.uiwidgets.TabbedApp"
             android:exported="true"
             android:label="@string/title_activity_tabbed_app"
-            android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.Kotlin_java_practicalss.NoActionBar" />
         <activity
             android:name="com.example.uiwidgets.MergetagImplementation"
             android:exported="false" />
@@ -225,6 +224,16 @@
         <activity
             android:name="com.example.uiwidgets.UIWidgetsA"
             android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.kotlin_java_practicalss.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
     </application>
 
 </manifest>
