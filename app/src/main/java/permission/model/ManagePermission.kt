@@ -26,7 +26,6 @@ class ManagePermission(val activity: Activity, val list: List<String>, val code:
         for (permission in list) {
             counter += ContextCompat.checkSelfPermission(activity, permission)
         }
-        Log.d("couter11", counter.toString())
         return counter
     }
 
