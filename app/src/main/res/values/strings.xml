@@ -237,6 +237,12 @@
     <string name="show_floating_button">Show floating button</string>
     <string name="navigationview">Navigationview</string>
     <string name="coordinatorlayout">CoordinatorLayout</string>
-
     <string name="snackbar_message">This is a simple Snackbar</string>
+    <string name="Recents">Recents</string>
+    <string name="Favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="trash">trash</string>
+    <string name="sync">sync</string>
+    <string name="not_found">not_found</string>
+
 </resources>

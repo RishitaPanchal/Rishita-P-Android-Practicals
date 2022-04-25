@@ -26,4 +26,5 @@ class CoroutinesViewModel: ViewModel() {
             APIClient.retrofitBuilder.getDataCoroutine().body()?.usersList as ArrayList<Data>
         }
     }
+
 }

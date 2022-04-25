@@ -10,6 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import webServices.ListUsersManualJsonParse
 import com.example.kotlin_java_practicalss.databinding.FragmentUiEBinding
+import coroutines.CoroutinesScopeDemo
 import uiwidgetse.searchview.nestedscrollview.*
 
 import webServices.LoginSignup
@@ -76,7 +77,7 @@ class FragmentUiE : Fragment(), View.OnClickListener {
             }
             binding.btn9.id -> {
                 requireActivity().run {
-                    startActivity(Intent(this, CardMVP::class.java))
+                    startActivity(Intent(this, CoroutinesScopeDemo::class.java))
                 }
             }
         }

@@ -11,11 +11,11 @@ class PageAdapter(fragmentManager: FragmentManager): FragmentPagerAdapter(fragme
     }
 
     override fun getItem(position: Int): Fragment {
-       when(position) {
-           0 -> return RecentFragment()
-           1 -> return  MyFavoritesFragment()
-           else -> return RecentFragment()
-       }
+        return when(position) {
+            0 -> RecentFragment()
+            1 -> MyFavoritesFragment()
+            else -> RecentFragment()
+        }
     }
 
     override fun getPageTitle(position: Int): CharSequence? {

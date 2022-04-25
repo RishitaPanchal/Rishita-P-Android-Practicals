@@ -31,9 +31,8 @@ class ListUsers : AppCompatActivity() {
         getResponse()
     }
 
-
-        /** Function */
-       private fun getResponse() {
+    /** Function */
+    private fun getResponse() {
         APIClient.retrofitBuilder.getData().enqueue(object : Callback<MainDataClass> {
             override fun onFailure(call: Call<MainDataClass>, t: Throwable) {
                 Log.e(javaClass.simpleName, "error: ${t.printStackTrace()}")

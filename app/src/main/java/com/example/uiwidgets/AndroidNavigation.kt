@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.kotlin_java_practicalss.databinding.ActivityAndroidNavigationBinding
 import design.support.library.CoordinatorLayout
 import design.support.library.NavigationView
+import design.support.library.TabBarInCoordinatorLayout
 import permission.model.CameraStoragePermission
 import permission.model.MultiplePermissions
 import permission.model.RuntimePermissionModel
@@ -51,6 +52,11 @@ class AndroidNavigation : AppCompatActivity() {
 
         binding.btn7.setOnClickListener {
             val i = Intent(this, CoordinatorLayout::class.java)
+            startActivity(i)
+        }
+
+        binding.btn8.setOnClickListener {
+            val i = Intent(this, TabBarInCoordinatorLayout::class.java)
             startActivity(i)
         }
     }

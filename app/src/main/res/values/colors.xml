@@ -16,4 +16,6 @@
     <color name="lovender">#fabcff</color>
     <color name="transperant">#00000000</color>
     <color name="lightWhite">#EFEBD6</color>
+    <color name="yellow">#FFCC00</color>
+    <color name="red">#CD5C5C</color>
 </resources>

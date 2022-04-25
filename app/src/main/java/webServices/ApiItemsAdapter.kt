@@ -61,7 +61,6 @@ class ApiItemsAdapter(val context: Context, private val userData: List<Data>) :
                 listener.onItemClick(adapterPosition)
             }
         }
-
     }
 
  }

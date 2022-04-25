@@ -13,7 +13,6 @@ class ViewpagerDemo : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_viewpager_demo)
         binding = ActivityViewpagerDemoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

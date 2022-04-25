@@ -31,8 +31,6 @@ class RecyclerviewAdapter(val context: Context, private val items: Array<String>
         val item = filteredData[position]
         holder.tvItem.text = item
         holder.image.setImageResource(R.drawable.lock)
-        //When you click on the chekbox it will set unlock icon
-
         holder.checkbox.setOnClickListener {
             if(holder.checkbox.isChecked) {
                 holder.image.setImageResource(R.drawable.unlock)
@@ -55,36 +53,6 @@ class RecyclerviewAdapter(val context: Context, private val items: Array<String>
         val card: CardView = view.card_view_item
         val layout: LinearLayout = view.layout
     }
-
-  /*  override fun getFilter(): Filter {
-
-        return object : Filter() {
-            override fun performFiltering(p0: CharSequence?): Filter.FilterResults {
-                var listFilter: Array<String>
-                if(p0==null||p0.isEmpty())
-                {
-                    listFilter = items
-                }else
-                {
-                    val filterPattern: String = p0.toString().toLowerCase().trim()
-                    for (item in items) {
-                        if (item.toLowerCase().contains(filterPattern)) {
-                            listFilter = items
-                        }
-                    }
-                }
-                val results = Filter.FilterResults()
-                //results.values = listFilter
-                return  results;
-            }
-            override fun publishResults(p0: CharSequence?, p1: Filter.FilterResults?) {
-                //listdataSearch.clear()
-                //listdataSearch.addAll(p1?.values as Collection<ExampleData>)
-                notifyDataSetChanged()
-            }
-        }
-
-    }*/
 
 }
 

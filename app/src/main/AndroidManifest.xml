@@ -17,6 +17,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin_java_practicalss">
         <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name="design.support.library.TabBarInCoordinatorLayout"
+            android:exported="false" />
+        <activity
             android:name="design.support.library.CoordinatorLayout"
             android:exported="false" />
         <activity
