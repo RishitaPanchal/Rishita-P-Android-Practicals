@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navyblue"
+    tools:context="safe.args.data.passing.Fragment2">
+
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/title"
+        android:textSize="@dimen/_50sdp"
+        android:textColor="@color/white"/>
+
+</FrameLayout>

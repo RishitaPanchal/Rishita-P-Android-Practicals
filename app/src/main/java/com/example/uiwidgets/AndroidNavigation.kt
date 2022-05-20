@@ -10,6 +10,7 @@ import design.support.library.TabBarInCoordinatorLayout
 import permission.model.CameraStoragePermission
 import permission.model.MultiplePermissions
 import permission.model.RuntimePermissionModel
+import safe.args.data.passing.SafeArgsDataPassing
 
 class AndroidNavigation : AppCompatActivity() {
 
@@ -57,6 +58,11 @@ class AndroidNavigation : AppCompatActivity() {
 
         binding.btn8.setOnClickListener {
             val i = Intent(this, TabBarInCoordinatorLayout::class.java)
+            startActivity(i)
+        }
+
+        binding.btn9.setOnClickListener {
+            val i = Intent(this, SafeArgsDataPassing::class.java)
             startActivity(i)
         }
     }
