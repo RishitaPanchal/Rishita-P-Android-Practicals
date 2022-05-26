@@ -75,6 +75,7 @@
         <entry key="app/src/main/res/layout/activity_table_layout_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_uiwidgets.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_uiwidgets_d.xml" value="0.109375" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/activity_view_model_factory_demo.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_viewpager2_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_webview.xml" value="0.17" />
@@ -143,6 +144,7 @@
         <entry key="app/src/main/res/layout/simple_list_component.xml" value="0.1" />
         <entry key="app/src/main/res/layout/simple_recyclerview_row.xml" value="0.1" />
         <entry key="app/src/main/res/layout/stragered_grid_recycler_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/student_list_items.xml" value="0.10625" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.14635416666666667" />
         <entry key="app/src/main/res/menu/bottom_navigation_pr2.xml" value="0.1375" />
         <entry key="app/src/main/res/menu/exercise_practical1_bottomnavigation.xml" value="1.1642857142857144" />

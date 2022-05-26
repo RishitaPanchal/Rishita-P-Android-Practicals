@@ -218,6 +218,7 @@
     <string name="viewmodel_factory">ViewModel Factory</string>
     <string name="coroutines_demo">Coroutines demo</string>
     <string name="add_new_card">Add new card</string>
+    <string name="dependancy_injection">Dependancy Injection</string>
     <!-- End Android important views -->
 
 </resources>

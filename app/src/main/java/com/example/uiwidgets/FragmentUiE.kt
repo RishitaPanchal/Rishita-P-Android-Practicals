@@ -30,7 +30,6 @@ class FragmentUiE : Fragment(), View.OnClickListener {
     }
 
     /** onCLick using Databinding */
-    @SuppressLint("SetJavaScriptEnabled")
     override fun onClick(p0: View?) {
         when (p0?.id) {
             binding.btn1.id -> {

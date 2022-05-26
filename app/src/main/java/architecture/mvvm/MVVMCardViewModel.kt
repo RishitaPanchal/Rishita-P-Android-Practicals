@@ -2,8 +2,9 @@ package architecture.mvvm
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import javax.inject.Inject
 
-class MVVMCardViewModel: ViewModel() {
+class MVVMCardViewModel @Inject constructor(): ViewModel() {
 
     /** Instance variable */
     val etCardNumber = MutableLiveData<String>()

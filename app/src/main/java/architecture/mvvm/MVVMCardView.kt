@@ -4,22 +4,22 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.activity.viewModels
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import com.example.kotlin_java_practicalss.R
 import com.example.kotlin_java_practicalss.databinding.ActivityMvvmcardBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MVVMCardView : AppCompatActivity(), View.OnClickListener {
 
     /** Instance variable */
     private lateinit var binding: ActivityMvvmcardBinding
-    private lateinit var model: MVVMCardViewModel
+    private val model: MVVMCardViewModel by viewModels()
 
     /** Overridden methhods */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        model = ViewModelProvider(this)[MVVMCardViewModel::class.java]
         binding = DataBindingUtil.setContentView<ActivityMvvmcardBinding>(this, R.layout.activity_mvvmcard).apply {
             this.lifecycleOwner = this@MVVMCardView
             this.viewModel = model
