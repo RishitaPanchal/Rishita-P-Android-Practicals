@@ -23,13 +23,13 @@ class SectionsPagerAdapter(
 
     override fun getItem(position: Int): Fragment {
         val f: Fragment? = null
-        when (position) {
-            0 -> return FragmentUiA()
-            1 -> return FragmentUiB()
-            2 -> return FragmentUiC()
-            3 -> return FragmentUiD()
-            4 -> return FragmentUiE()
-            else -> return f!!
+        return when (position) {
+            0 -> FragmentUiA()
+            1 -> FragmentUiB()
+            2 -> FragmentUiC()
+            3 -> FragmentUiD()
+            4 -> FragmentUiE()
+            else -> f!!
         }
     }
 

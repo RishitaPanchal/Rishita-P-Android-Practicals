@@ -6,11 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.kotlin_java_practicalss.R
-import com.example.kotlin_java_practicalss.databinding.ActivityUiwidgetsDBinding
-import com.example.kotlin_java_practicalss.databinding.FragmentUiCBinding
 import com.example.kotlin_java_practicalss.databinding.FragmentUiDBinding
-import uiwidgetsc.listview.recyclerview.adapters.*
 import uiwidgetsd.activity.fragment.intents.*
 
 class FragmentUiD : Fragment() {
