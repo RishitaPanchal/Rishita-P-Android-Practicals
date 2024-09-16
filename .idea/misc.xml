@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.1546875" />
+        <entry key="app/src/main/res/drawable/circular.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/edittext_design.xml" value="0.14166666666666666" />
         <entry key="app/src/main/res/drawable/email_send_btn.xml" value="0.16041666666666668" />
         <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.16458333333333333" />
@@ -11,6 +12,7 @@
         <entry key="app/src/main/res/drawable/ic_baseline_pass_24.xml" value="0.14635416666666667" />
         <entry key="app/src/main/res/drawable/ic_baseline_shopping_bag_24.xml" value="0.14635416666666667" />
         <entry key="app/src/main/res/drawable/ic_shopping_cart.xml" value="0.121875" />
+        <entry key="app/src/main/res/drawable/image.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/registration_design.xml" value="0.16458333333333333" />
         <entry key="app/src/main/res/drawable/ripple.xml" value="0.1546875" />
         <entry key="app/src/main/res/drawable/ripple2.xml" value="0.1625" />
@@ -21,8 +23,13 @@
         <entry key="app/src/main/res/drawable/your_story.xml" value="0.178125" />
         <entry key="app/src/main/res/layout-v23/activity_main.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout-v26/expandable_listview_movies.xml" value="0.15625" />
+        <entry key="app/src/main/res/layout/activity_add_card_details.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_android_navigation.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_architecture_navigation.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_bottom_navigation_with_viewpager.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_calc_java_operators.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_card_mvc.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_card_mvp.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_constraint_layout_form2.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_exercise_practical1_using_viewmodel.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_exercise_uiwidgets.xml" value="0.1" />
@@ -33,20 +40,33 @@
         <entry key="app/src/main/res/layout/activity_layout_demo_insta.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/activity_layouts.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_list_users.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_list_users_manual_json_parse.xml" value="0.1375" />
+        <entry key="app/src/main/res/layout/activity_listview_with_image.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/activity_lmsintent_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_login_form_table_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_mvc.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_login_page_table_layout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login_signup.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main2.xml" value="0.11145833333333334" />
         <entry key="app/src/main/res/layout/activity_merge_tag_implementation.xml" value="0.12447916666666667" />
         <entry key="app/src/main/res/layout/activity_mergetag_implementation.xml" value="0.13854166666666667" />
+        <entry key="app/src/main/res/layout/activity_mvccard_vieww.xml" value="0.13229166666666667" />
+        <entry key="app/src/main/res/layout/activity_mvvmcard.xml" value="0.153125" />
+        <entry key="app/src/main/res/layout/activity_nested_scrollview.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_pending_intent2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_pending_intent_demo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_practical2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_relative_layout_demo.xml" value="0.1189710610932476" />
         <entry key="app/src/main/res/layout/activity_ripple_effect.xml" value="0.14322916666666666" />
+        <entry key="app/src/main/res/layout/activity_scrollview_inside_nested_scrollview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_searchview_in_horizontal_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_searchview_in_recyclerview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_searchview_in_toolbar.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/activity_simple_list_view.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_simple_recyclerview.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_single_user_page.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen_using_frame_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_stragered_gridview_recyclerview.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_tabbed_app.xml" value="0.1" />
@@ -54,8 +74,10 @@
         <entry key="app/src/main/res/layout/activity_uiwidgets.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_uiwidgets_d.xml" value="0.109375" />
         <entry key="app/src/main/res/layout/activity_viewpager2_demo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_webview.xml" value="0.17" />
         <entry key="app/src/main/res/layout/button_color.xml" value="0.1640625" />
         <entry key="app/src/main/res/layout/content_constraint_layout_form.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/custom_alert.xml" value="0.25" />
         <entry key="app/src/main/res/layout/custom_toast.xml" value="0.1" />
         <entry key="app/src/main/res/layout/edittext_design.xml" value="0.12552083333333333" />
         <entry key="app/src/main/res/layout/expandable_listview_movie_details.xml" value="0.1" />
@@ -100,21 +122,29 @@
         <entry key="app/src/main/res/layout/fragment_ui_b.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_ui_c.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_ui_d.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_ui_e.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_view_message.xml" value="0.10729166666666666" />
         <entry key="app/src/main/res/layout/fragment_your_posts.xml" value="0.11684782608695653" />
+        <entry key="app/src/main/res/layout/horizontal_list_item.xml" value="0.17" />
+        <entry key="app/src/main/res/layout/images_in_scrollview.xml" value="0.153125" />
         <entry key="app/src/main/res/layout/include_tag_demo.xml" value="0.1480978260869565" />
         <entry key="app/src/main/res/layout/include_tag_insta_posts.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/include_tag_insta_stories.xml" value="0.11911231884057971" />
+        <entry key="app/src/main/res/layout/item_for_searchview.xml" value="0.33" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_users_jsonparse.xml" value="0.1375" />
         <entry key="app/src/main/res/layout/listview_components.xml" value="0.1" />
         <entry key="app/src/main/res/layout/merge_tag_demo.xml" value="0.15989583333333332" />
+        <entry key="app/src/main/res/layout/recycler_view_items_retrofit.xml" value="0.10087719298245613" />
         <entry key="app/src/main/res/layout/registration_design.xml" value="0.1484375" />
         <entry key="app/src/main/res/layout/simple_list_component.xml" value="0.1" />
         <entry key="app/src/main/res/layout/simple_recyclerview_row.xml" value="0.1" />
         <entry key="app/src/main/res/layout/stragered_grid_recycler_layout.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.14635416666666667" />
+        <entry key="app/src/main/res/menu/bottom_navigation_pr2.xml" value="0.1375" />
         <entry key="app/src/main/res/menu/exercise_practical1_bottomnavigation.xml" value="1.1642857142857144" />
         <entry key="app/src/main/res/menu/menu_bottomnavigation.xml" value="0.10729166666666666" />
+        <entry key="app/src/main/res/menu/searchview.xml" value="0.1375" />
         <entry key="app/src/main/res/xml/abc.xml" value="0.14583333333333334" />
       </map>
     </option>

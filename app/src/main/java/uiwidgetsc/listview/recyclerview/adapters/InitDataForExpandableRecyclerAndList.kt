@@ -12,6 +12,7 @@ class InitDataForExpandableRecyclerAndList(val context: Context) {
         val str = context.assets.open("Data.json").bufferedReader().use { it.readText() }
         return gson.fromJson(str, APIResponse::class.java)
     }
+
     fun initDataExpandableRecyclerView(movieData: MutableList<DataClassExpandableRecyclerView>): MutableList<DataClassExpandableRecyclerView> {
         try {
             val data = extractJsonData()
